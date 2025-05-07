@@ -170,6 +170,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-output.md
-
-./output
+output/

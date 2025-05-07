@@ -1,14 +1,11 @@
 Ad Feedback
 #  Some US cities are canceling cultural events over fears of ICE raids and deportations 
-By [Nicquel Terry Ellis](https://www.cnn.com/profiles/nicquel-terry-ellis), CNN 
 5 minute read 
 Updated 8:06 AM EDT, Mon May 5, 2025 
 Link Copied! 
 Follow:
-Immigration [See your latest updates](https://edition.cnn.com/follow?iid=follow_see_all_article&source=acq_web_experiments_follow_card-social-bar-all)
 Chicago has celebrated Cinco de Mayo with a parade and festival for the past 45 years.
 Roberto Galan/Alamy Stock Photo
-CNN — 
 For the past 45 years, Chicago’s Little Village neighborhood has celebrated Cinco de Mayo with a parade featuring Mexican bands, floats and dancers, and a festival at a local park. 
 But this year’s celebration, which attracts up to 300,000 people annually, has been canceled. 
 Chicago is among several communities across the country that have canceled or scaled back cultural events due to President Donald Trump’s crackdown on undocumented immigrants. 
@@ -55,31 +52,31 @@ He said Juneteenth celebrations are critical for acknowledging the nation’s hi
 _CNN’s Taylor Romine contributed._
 ## Up next
 [ What happens with US citizen children caught up in Trump’s deportation push May 3, 2025  6 minute readmin read ](https://www.cnn.com/2025/05/03/politics/what-happens-with-us-citizen-children-caught-up-in-trumps-deportation-push?iid=cnn_buildContentRecirc_end_recirc)
+[ May Day demonstrations span coast to coast in ‘50501’ anti-Trump protests May 2, 2025  8 minute readmin read ](https://www.cnn.com/2025/05/01/us/50501-movement-anti-trump-protests?iid=cnn_buildContentRecirc_end_recirc)
 [ Trump asks Supreme Court to end deportation protections for Venezuelans in the US May 2, 2025  2 minute readmin read ](https://www.cnn.com/2025/05/01/politics/trump-asks-supreme-court-to-end-deportation-protections-for-venezuelans-in-the-us?iid=cnn_buildContentRecirc_end_recirc)
 [ Trump turns civil rights upside down in ‘biggest rollback’ since Reconstruction May 2, 2025  5 minute readmin read ](https://www.cnn.com/2025/05/02/politics/trump-civil-rights-rollback-what-matters?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump says he ‘could’ bring Abrego Garcia back from El Salvador, but won’t May 1, 2025  7 minute readmin read ](https://www.cnn.com/2025/04/30/us/trump-could-bring-abrego-garcia-back-us-hnk?iid=cnn_buildContentRecirc_end_recirc)
 [ How the fear of soft-target raids is changing undocumented migrants’ behavior May 2, 2025  7 minute readmin read ](https://www.cnn.com/2025/05/02/us/pomona-california-day-laborers-raid-fear?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 ## Most read
+[ A woman missing for more than 60 years has been found alive ](https://www.cnn.com/2025/05/05/us/audrey-backeberg-missing-found-alive?iid=cnn_buildContentRecirc_end_recirc)
+[ Hollywood is shaken by Trump’s tariff plan for the movie industry ](https://www.cnn.com/2025/05/05/media/movie-tariffs-trump-hollywood?iid=cnn_buildContentRecirc_end_recirc)
+[ Air traffic controllers lost communication with Newark planes – leading to widespread delays after they took leave for trauma ](https://www.cnn.com/2025/05/05/us/newark-airport-additional-flight-delays?iid=cnn_buildContentRecirc_end_recirc)
+[ Pence rebuffs Trump on tariffs, Russia and January 6 pardons in CNN interview ](https://www.cnn.com/2025/05/05/politics/january-6-pence-trump-tariffs-russia?iid=cnn_buildContentRecirc_end_recirc)
 [ Deported from Florida to Cuba, this mom saw her 17-month-old US daughter – and her American dream – ripped away ](https://www.cnn.com/2025/05/05/americas/heidy-sanchez-cuba-mom-deported-us-daughter-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump is acting like it’s his choice whether he obeys the Constitution ](https://www.cnn.com/2025/05/05/politics/constitution-trump-nbc-interview-tariffs-canada?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump says he is directing Bureau of Prisons to reopen Alcatraz to house ‘ruthless and violent offenders’ ](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump orders a 100% tariff on foreign movies ](https://www.cnn.com/2025/05/04/media/movies-tariff-trump?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump renews threat of military force to annex Greenland ](https://www.cnn.com/2025/05/04/world/greenland-annexation-threat-trump-nbc-interview-intl-hnk?iid=cnn_buildContentRecirc_end_recirc)
-[ First Trump targeted Mexico’s drug cartels. Now it’s the musicians who sing about them ](https://www.cnn.com/2025/05/04/americas/narcocorrido-mexico-bands-us-trump-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump posts AI image of himself as pope, leaving Catholics offended and unamused as conclave nears ](https://www.cnn.com/2025/05/04/world/trump-ai-image-pope-intl-hnk?iid=cnn_buildContentRecirc_end_recirc)
-[ Why do popes choose different names and what could the name of the new pope be? ](https://www.cnn.com/2025/05/04/europe/pope-new-name-explainer-intl-scli?iid=cnn_buildContentRecirc_end_recirc)
-[ America’s largest real estate brokerages are fighting over private listings ](https://www.cnn.com/2025/05/05/economy/real-estate-fight-private-listings?iid=cnn_buildContentRecirc_end_recirc)
-[ Pence says January 6 attack’s failure ‘became a triumph of freedom’ as he receives JFK Profile in Courage Award ](https://www.cnn.com/2025/05/04/politics/mike-pence-jfk-award-january-6?iid=cnn_buildContentRecirc_end_recirc)
+[ Hegseth orders Pentagon to cut number of senior generals by 20% ](https://www.cnn.com/2025/05/05/politics/hegseth-orders-pentagon-cut-senior-generals?iid=cnn_buildContentRecirc_end_recirc)
+[ The clock is ticking down to zero, and Trump needs a trade deal — badly ](https://www.cnn.com/2025/05/05/business/trade-war-deal-trump?iid=cnn_buildContentRecirc_end_recirc)
+[ Met Gala 2025: The best looks from the red carpet ](https://www.cnn.com/2025/05/05/style/met-gala-2025-red-carpet-fashion?iid=cnn_buildContentRecirc_end_recirc)
+[ 3 killed, 5 injured in mass shooting at Arizona restaurant and event venue ](https://www.cnn.com/2025/05/05/us/shooting-glendale-arizona-multiple-injured-hnk?iid=cnn_buildContentRecirc_end_recirc)
+[ Israel vows to escalate war with new plan to ‘conquer’ Gaza ](https://www.cnn.com/2025/05/05/middleeast/israel-gaza-expansion-hnk-intl?iid=cnn_buildContentRecirc_end_recirc)
 ## More from CNN
 [ What happens with US citizen children caught up in Trump’s ... May 3, 2025  ](https://www.cnn.com/2025/05/03/politics/what-happens-with-us-citizen-children-caught-up-in-trumps-deportation-push?iid=cnn_buildContentRecirc_end_recirc)
+[ May Day demonstrations span coast to coast in ‘50501’ ... May 2, 2025  ](https://www.cnn.com/2025/05/01/us/50501-movement-anti-trump-protests?iid=cnn_buildContentRecirc_end_recirc)
 [ Trump asks Supreme Court to end deportation protections for ... May 2, 2025  ](https://www.cnn.com/2025/05/01/politics/trump-asks-supreme-court-to-end-deportation-protections-for-venezuelans-in-the-us?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump turns civil rights upside down in ‘biggest rollback’ since ... May 2, 2025  ](https://www.cnn.com/2025/05/02/politics/trump-civil-rights-rollback-what-matters?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 ## News & buzz
-[ Deported from Florida to Cuba, this mom saw her 17-month-old US ... May 5, 2025  ](https://www.cnn.com/2025/05/05/americas/heidy-sanchez-cuba-mom-deported-us-daughter-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump is acting like it’s his choice whether he obeys the Constitution May 5, 2025  ](https://www.cnn.com/2025/05/05/politics/constitution-trump-nbc-interview-tariffs-canada?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump says he is directing Bureau of Prisons to reopen Alcatraz to house ... May 5, 2025  ](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen?iid=cnn_buildContentRecirc_end_recirc)
+[ A woman missing for more than 60 years has been found alive May 6, 2025  ](https://www.cnn.com/2025/05/05/us/audrey-backeberg-missing-found-alive?iid=cnn_buildContentRecirc_end_recirc)
+[ Hollywood is shaken by Trump’s tariff plan for the movie industry May 6, 2025  ](https://www.cnn.com/2025/05/05/media/movie-tariffs-trump-hollywood?iid=cnn_buildContentRecirc_end_recirc)
+[ Air traffic controllers lost communication with Newark ... May 6, 2025  ](https://www.cnn.com/2025/05/05/us/newark-airport-additional-flight-delays?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 Ad Feedback
 Ad Feedback

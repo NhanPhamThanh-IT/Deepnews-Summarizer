@@ -1,62 +1,63 @@
 Ad Feedback
-#  3 killed, 5 injured after mass shooting at restaurant in Glendale, Arizona 
-By Hanna Park and [Lauren Mascarenhas](https://www.cnn.com/profiles/lauren-mascarenhas), CNN 
+#  3 killed, 5 injured in mass shooting at Arizona restaurant and event venue 
+By [Lauren Mascarenhas](https://www.cnn.com/profiles/lauren-mascarenhas) and Andi Babineau, CNN 
 2 minute read 
-Updated 10:04 AM EDT, Mon May 5, 2025 
+Updated 8:59 PM EDT, Mon May 5, 2025 
 Link Copied! 
 Follow:
 Video Ad Feedback
 'Very large scene': Police share update on investigation after deadly restaurant shooting 
-00:55  - Source: [CNN](https://www.cnn.com/)
+- Source: [CNN](https://www.cnn.com/)
 'Very large scene': Police share update on investigation after deadly restaurant ...
 00:55 
-CNN — 
-Three people were killed and five others were injured in a mass shooting Sunday evening at a restaurant near Phoenix, Glendale police said. 
-Officers responding around 7:45 p.m. to calls of a shooting found an “enormous scene,” said police in Glendale, Arizona. The city is about 10 miles northwest of downtown Phoenix. 
-“We’ve got multiple calls of a shooting that happened at an establishment,” police spokesperson Moroni Mendez said. “It was very chaotic.” 
+The fatal shooting Sunday night at a restaurant and event venue in Glendale, Arizona, was an “isolated incident that involved individuals that were known to one another,” the city manager’s office said in an update Monday. 
+Three people were killed and five others were injured after a fight broke out during an event described as a “concert/car show” at El Camaron Gigante, a steak and seafood restaurant, according to Jose Miguel Santiago, a communications manager for the city of Glendale. The city is about 10 miles northwest of downtown Phoenix. 
+“Once they exited the venue the fight escalated in the parking lot and that’s when these individuals began shooting at one another,” Santiago said in a statement. 
 Ad Feedback
 Ad Feedback
-Police believe multiple shooters were involved. Several people have been detained for questioning, but no suspects have been taken into custody, Mendez said. 
-No officers or security personnel fired their guns, Mendez said. Police do not believe there is an ongoing threat to the public, he said. 
-It was among so far this year in the United States, with four or more people wounded or killed, not including shooters, according to Gun Violence Archive. 
+The three people killed were a 17-year old boy and two 21-year-olds; the city spokesman said the teenager and one of the 21-year-olds were brothers. The city previously released the wrong age for two of the victims. 
+The five people injured include two women, ages 20 and 21; two men, ages 20 and 23; and a 16-year-old boy who had surgery for his injuries and is expected to make a full recovery, the city spokesman said. 
+The injuries were from gunshots or shrapnel, police said earlier. 
 Ad Feedback
-The events leading up to the Glendale shooting remain unclear, and police are asking people with information to come forward. 
-First responders work the scene of a shooting in the Phoenix suburb of Glendale on Sunday night.
+The names of the victims will be released once next of kin are notified, Santiago said. 
+The investigation is now focused on how many shooters were involved and the types of weapons they used, he said. Between 200 and 300 people were attending the event and the restaurant was open, he added. 
+First responders work the scene of the shooting in the Phoenix suburb of Glendale on Sunday night.
 AZFamily.com via AP
-The five people injured were wounded by gunshots or shrapnel, Mendez noted. It’s unclear whether the victims knew one another, he added. 
+Officers who responded to reports of a shooting around 7:45 p.m. found an “enormous scene,” police spokesperson Moroni Mendez said. 
+Several people have been detained for questioning, but no suspects have been taken into custody, according to Mendez, and no officers or security personnel fired their guns. 
 “We want to make sure we do a complete and thorough investigation and do right by the victims,” Mendez said. 
-“Obviously, they were involved because they were here tonight. Whether they know each other, whether they’re related, whether they’re allies or opponents – we don’t know yet, and that’s what we’re trying to solve and figure out,” Mendez said. 
+The shooting was among so far this year in the United States, with four or more people wounded or killed, not including shooters, according to Gun Violence Archive. 
 Bystander Lupe Rodriguez described the scene to . 
 “I heard people yelling out names. There was a man on the ground and it didn’t look like he made it,” Rodriguez said. “His father was yelling out his name. It was pretty bad.” 
-“It’s going to be several hours before this whole thing is cleared up,” Mendez said. “We’ll probably be working well into the daytime hours.” 
-_This is a developing story and will be updated._
+_CNN’s Hanna Park contributed to this report._
+_This story has been updated._
 ## Up next
-[ Prosecutor says officer killed in gunman’s Pennsylvania hospital siege was hit by police fire May 1, 2025  4 minute readmin read ](https://www.cnn.com/2025/04/30/us/pennsylvania-hospital-shooting-officer-killed/index.html?iid=cnn_buildContentRecirc_end_recirc)
-[ A teen was fatally stabbed at a track meet in Texas. His twin brother tried to save him Apr 18, 2025  4 minute readmin read ](https://www.cnn.com/2025/04/03/us/17-year-old-fatally-stabbed-student-texas/index.html?iid=cnn_buildContentRecirc_end_recirc)
+[ A fiery highway crash in eastern Kansas kills 8 people, including 3 from Tulsa, Oklahoma, schools May 6, 2025  2 minute readmin read ](https://www.cnn.com/2025/05/05/us/kansas-highway-deadly-crash?iid=cnn_buildContentRecirc_end_recirc)
 [ Two people killed when small plane crashes into two homes in California May 4, 2025  2 minute readmin read ](https://www.cnn.com/2025/05/03/us/simi-valley-plane-crash-california?iid=cnn_buildContentRecirc_end_recirc)
+[ Police charge 2nd suspect with murder in the death of a Super Bowl reporter at his hotel May 6, 2025  2 minute readmin read ](https://www.cnn.com/2025/05/05/us/adan-manzano-new-orleans-reporter?iid=cnn_buildContentRecirc_end_recirc)
 [ Driver in crash at Illinois after-school program that killed 4 may have had medical emergency, police say May 2, 2025  2 minute readmin read ](https://www.cnn.com/2025/05/01/us/chatham-illinois-crash-driver?iid=cnn_buildContentRecirc_end_recirc)
-[ ‘Mushroom murder’ trial: Defense claims death of lunch guests was a ‘terrible accident’ Apr 30, 2025  3 minute readmin read ](https://www.cnn.com/2025/04/30/australia/australia-mushroom-poisoning-trial-intl-hnk/index.html?iid=cnn_buildContentRecirc_end_recirc)
+[ Three police officers shot dead in Russia’s Dagestan May 5, 2025  2 minute readmin read ](https://www.cnn.com/2025/05/05/europe/three-police-officers-shot-dead-in-russias-dagestan-intl?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 ## Most read
+[ A woman missing for more than 60 years has been found alive ](https://www.cnn.com/2025/05/05/us/audrey-backeberg-missing-found-alive?iid=cnn_buildContentRecirc_end_recirc)
+[ Hollywood is shaken by Trump’s tariff plan for the movie industry ](https://www.cnn.com/2025/05/05/media/movie-tariffs-trump-hollywood?iid=cnn_buildContentRecirc_end_recirc)
+[ Air traffic controllers lost communication with Newark planes – leading to widespread delays after they took leave for trauma ](https://www.cnn.com/2025/05/05/us/newark-airport-additional-flight-delays?iid=cnn_buildContentRecirc_end_recirc)
+[ Pence rebuffs Trump on tariffs, Russia and January 6 pardons in CNN interview ](https://www.cnn.com/2025/05/05/politics/january-6-pence-trump-tariffs-russia?iid=cnn_buildContentRecirc_end_recirc)
 [ Deported from Florida to Cuba, this mom saw her 17-month-old US daughter – and her American dream – ripped away ](https://www.cnn.com/2025/05/05/americas/heidy-sanchez-cuba-mom-deported-us-daughter-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump is acting like it’s his choice whether he obeys the Constitution ](https://www.cnn.com/2025/05/05/politics/constitution-trump-nbc-interview-tariffs-canada?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump says he is directing Bureau of Prisons to reopen Alcatraz to house ‘ruthless and violent offenders’ ](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump orders a 100% tariff on foreign movies ](https://www.cnn.com/2025/05/04/media/movies-tariff-trump?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump renews threat of military force to annex Greenland ](https://www.cnn.com/2025/05/04/world/greenland-annexation-threat-trump-nbc-interview-intl-hnk?iid=cnn_buildContentRecirc_end_recirc)
-[ First Trump targeted Mexico’s drug cartels. Now it’s the musicians who sing about them ](https://www.cnn.com/2025/05/04/americas/narcocorrido-mexico-bands-us-trump-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump posts AI image of himself as pope, leaving Catholics offended and unamused as conclave nears ](https://www.cnn.com/2025/05/04/world/trump-ai-image-pope-intl-hnk?iid=cnn_buildContentRecirc_end_recirc)
-[ Why do popes choose different names and what could the name of the new pope be? ](https://www.cnn.com/2025/05/04/europe/pope-new-name-explainer-intl-scli?iid=cnn_buildContentRecirc_end_recirc)
-[ America’s largest real estate brokerages are fighting over private listings ](https://www.cnn.com/2025/05/05/economy/real-estate-fight-private-listings?iid=cnn_buildContentRecirc_end_recirc)
-[ Pence says January 6 attack’s failure ‘became a triumph of freedom’ as he receives JFK Profile in Courage Award ](https://www.cnn.com/2025/05/04/politics/mike-pence-jfk-award-january-6?iid=cnn_buildContentRecirc_end_recirc)
+[ Hegseth orders Pentagon to cut number of senior generals by 20% ](https://www.cnn.com/2025/05/05/politics/hegseth-orders-pentagon-cut-senior-generals?iid=cnn_buildContentRecirc_end_recirc)
+[ The clock is ticking down to zero, and Trump needs a trade deal — badly ](https://www.cnn.com/2025/05/05/business/trade-war-deal-trump?iid=cnn_buildContentRecirc_end_recirc)
+[ Met Gala 2025: The best looks from the red carpet ](https://www.cnn.com/2025/05/05/style/met-gala-2025-red-carpet-fashion?iid=cnn_buildContentRecirc_end_recirc)
+[ 3 killed, 5 injured in mass shooting at Arizona restaurant and event venue ](https://www.cnn.com/2025/05/05/us/shooting-glendale-arizona-multiple-injured-hnk?iid=cnn_buildContentRecirc_end_recirc)
+[ Israel vows to escalate war with new plan to ‘conquer’ Gaza ](https://www.cnn.com/2025/05/05/middleeast/israel-gaza-expansion-hnk-intl?iid=cnn_buildContentRecirc_end_recirc)
 ## More from CNN
-[ Prosecutor says officer killed in gunman’s Pennsylvania ... May 1, 2025  ](https://www.cnn.com/2025/04/30/us/pennsylvania-hospital-shooting-officer-killed/index.html?iid=cnn_buildContentRecirc_end_recirc)
-[ A teen was fatally stabbed at a track meet in Texas. His twin brother tried ... Apr 18, 2025  ](https://www.cnn.com/2025/04/03/us/17-year-old-fatally-stabbed-student-texas/index.html?iid=cnn_buildContentRecirc_end_recirc)
+[ A fiery highway crash in eastern Kansas kills 8 people, including ... May 6, 2025  ](https://www.cnn.com/2025/05/05/us/kansas-highway-deadly-crash?iid=cnn_buildContentRecirc_end_recirc)
 [ Two people killed when small plane crashes into two homes in California May 4, 2025  ](https://www.cnn.com/2025/05/03/us/simi-valley-plane-crash-california?iid=cnn_buildContentRecirc_end_recirc)
+[ Police charge 2nd suspect with murder in the death of a Super Bowl ... May 6, 2025  ](https://www.cnn.com/2025/05/05/us/adan-manzano-new-orleans-reporter?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 ## News & buzz
-[ Deported from Florida to Cuba, this mom saw her 17-month-old US ... May 5, 2025  ](https://www.cnn.com/2025/05/05/americas/heidy-sanchez-cuba-mom-deported-us-daughter-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump is acting like it’s his choice whether he obeys the Constitution May 5, 2025  ](https://www.cnn.com/2025/05/05/politics/constitution-trump-nbc-interview-tariffs-canada?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump says he is directing Bureau of Prisons to reopen Alcatraz to house ... May 5, 2025  ](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen?iid=cnn_buildContentRecirc_end_recirc)
+[ A woman missing for more than 60 years has been found alive May 6, 2025  ](https://www.cnn.com/2025/05/05/us/audrey-backeberg-missing-found-alive?iid=cnn_buildContentRecirc_end_recirc)
+[ Hollywood is shaken by Trump’s tariff plan for the movie industry May 6, 2025  ](https://www.cnn.com/2025/05/05/media/movie-tariffs-trump-hollywood?iid=cnn_buildContentRecirc_end_recirc)
+[ Air traffic controllers lost communication with Newark ... May 6, 2025  ](https://www.cnn.com/2025/05/05/us/newark-airport-additional-flight-delays?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 Ad Feedback
 Ad Feedback

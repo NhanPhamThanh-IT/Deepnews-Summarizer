@@ -1,46 +1,65 @@
+import re
+from bs4 import BeautifulSoup
+import json
 import asyncio
 from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode
 from crawl4ai.content_filter_strategy import PruningContentFilter
 from crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator
-
 from utils import save_file
 
-async def quick_parallel_example():
-    urls = [
-            'https://edition.cnn.com/2025/05/04/us/ohio-rodney-hinton-jr-arrest-hnk',
-            'https://edition.cnn.com/2025/05/04/us/ohio-rodney-hinton-jr-arrest-hnk',
-            'https://edition.cnn.com/2025/05/05/us/shooting-glendale-arizona-multiple-injured-hnk',
-            'https://edition.cnn.com/2025/05/03/us/cultural-events-canceled-trump-deportations',
-            'https://edition.cnn.com/2025/05/05/us/trump-alcatraz-prison-history-hnk',
-            'https://edition.cnn.com/2025/05/05/us/karen-read-retrial-different',
-            'https://edition.cnn.com/2025/05/05/us/5-things-to-know-for-may-5-lady-gaga-plot-alcatraz-trump-budget-weather-forecasting-mike-pence',
-            'https://edition.cnn.com/2025/05/04/us/newark-airport-nj-united-flights-delays',
-            'https://edition.cnn.com/2025/05/05/us/temple-student-suspended-antisemitic-sign-barstool-portnoy',
-            'https://edition.cnn.com/2025/05/04/us/doj-minnesota-hennepin-moriarty-race'
+with open('config.json', 'r') as file:
+    config = json.load(file)
+
+FILE_PATH = "test.md"
+NEWS_URL = "https://edition.cnn.com/2025/05/06/us/inside-the-multi-day-meltdown-at-newark-airport"
+THRESHOLD = config["THRESHOLD"]
+EXCLUDED_TAGS = config["EXCLUDED_TAGS"]
+
+prune_filter = PruningContentFilter(
+    threshold=THRESHOLD["VALUE"],           
+    threshold_type=THRESHOLD["TYPE"],        
+)
+
+md_generator = DefaultMarkdownGenerator(content_filter=prune_filter)
+
+def clean_text(text):
+    patterns_to_remove = [
+        r"Ad Feedback", r"Link Copied!", r"Follow:", r"Video Ad Feedback",
+        r"Privacy Policy.*", r"Cookie List.*", r"Apply Cancel.*",
+        r"checkbox label.*", r"Close.*", r"\*{2}|\*|_{1,3}", r"[^\x00-\x7F]+"
     ]
+    for pattern in patterns_to_remove:
+        text = re.sub(pattern, '', text, flags=re.IGNORECASE)
+    
+    text = re.sub(r'\n{2,}', '\n', text.strip())
+    
+    text = re.sub(r'\[(.*?)\]\((https?://[^\s]+)\)', r'\1', text)
 
-    prune_filter = PruningContentFilter(
-        threshold=0.45,           
-        threshold_type="dynamic",        
-    )
+    text = BeautifulSoup(text, "html.parser").get_text()
 
-    md_generator = DefaultMarkdownGenerator(content_filter=prune_filter)
+    return text.strip()
 
-    run_conf = CrawlerRunConfig(
-        excluded_tags=["nav", "footer", "header", "script", "style", "svg", "iframe", "canvas", "video", "audio", "picture"],
+
+async def testing():
+    config = CrawlerRunConfig(
+        excluded_tags=EXCLUDED_TAGS,
         exclude_external_links=True,
+        exclude_social_media_links=True,
+        exclude_external_images=True,
         cache_mode=CacheMode.BYPASS,
-        stream=True,
         markdown_generator=md_generator
     )
 
     async with AsyncWebCrawler() as crawler:
-        async for result in await crawler.arun_many(urls, config=run_conf):
-            if result.success:
-                print(f"[OK] {result.url}, length: {len(result.markdown.fit_markdown)}")
-                save_file(f"output/test/{result.url.split('/')[-1]}.md", result.markdown.fit_markdown)
-            else:
-                print(f"[ERROR] {result.url} => {result.error_message}")
+        result = await crawler.arun(
+            url=NEWS_URL, 
+            config=config
+        )
+
+        if result.success:
+            save_file(FILE_PATH,clean_text(result.markdown.fit_markdown))
+        else:
+            print("Error:", result.error_message)
 
 if __name__ == "__main__":
-    asyncio.run(quick_parallel_example())
+    asyncio.run(testing())

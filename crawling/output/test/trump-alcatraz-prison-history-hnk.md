@@ -2,28 +2,116 @@ Ad Feedback
 #  Trump wants to reopen one of America’s most notorious prisons. Here’s how Alcatraz earned its reputation 
 By Karina Tsui, CNN 
 6 minute read 
-Updated 7:44 AM EDT, Mon May 5, 2025 
+Updated 9:09 PM EDT, Mon May 5, 2025 
 Link Copied! 
 Follow:
 Donald Trump [See your latest updates](https://edition.cnn.com/follow?iid=follow_see_all_article&source=acq_web_experiments_follow_card-social-bar-all)
-Alcatraz Island in the San Francisco Bay on Sunday, May 4.
-Noah Berger/AP
-CNN — 
-President Donald Trump on Sunday said that he would order the government to [rebuild and reopen Alcatraz](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen), a former prison on a small island of the same name off the coast of San Francisco that once housed some of the most dangerous criminals in the country, including Al Capone, George “Machine Gun” Kelly and James “Whitey” Bulger. 
+Video Ad Feedback
+CNN tours Alcatraz after Trump says he wants to turn it into a working prison 
+- Source: [CNN](https://www.cnn.com/)
+US News 15 videos
+Video Ad Feedback
+'SOS': Detainees send distress signal from migrant detention center 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+Bridge destroyed in fiery planned explosion 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+See police helicopters race to find missing child 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+CNN tours Alcatraz after Trump says he wants to turn it into a working prison 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+Party Foul Edition 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+Nine missing after small boat capsizes off San Diego coast 
+Now playing
+- Source: KGTV , KFMB 
+Video Ad Feedback
+Woman deported from U.S. to native Cuba without her young daughter 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+Florida suburb mitigates peacock population with vasectomies 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+'Very large scene': Police share update on investigation after deadly restaurant shooting 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+A Georgia man went to a Walmart to buy Tylenol. He was later charged with attempted kidnapping 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Ohio sheriff’s deputy killed by father of teen fatally shot by police a day earlier, authorities say 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+Bodycam video released as Trump admin seeks to portray Abrego Garcia as a criminal to the public 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+‘They’ve gotta be committed’: Expert weighs in on 100 men vs. 1 gorilla debate 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+NightCaps: Dream Celebrity Encounter Edition 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+CNN reporter visits lagoon where Florida manatees are starving to death 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+'SOS': Detainees send distress signal from migrant detention center 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+Bridge destroyed in fiery planned explosion 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+See police helicopters race to find missing child 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+CNN tours Alcatraz after Trump says he wants to turn it into a working prison 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+Party Foul Edition 
+Now playing
+- Source: [CNN](https://www.cnn.com/)
+Video Ad Feedback
+Nine missing after small boat capsizes off San Diego coast 
+Now playing
+- Source: KGTV , KFMB 
+See More Videos
+President Donald Trump on Sunday said he would order the government to [rebuild and reopen Alcatraz](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen), a former prison on a small island of the same name off the coast of San Francisco that once housed some of the most dangerous criminals in the country, including Al Capone, George “Machine Gun” Kelly and James “Whitey” Bulger. 
 The prison, which closed 60 years ago due to its crumbling infrastructure and high maintenance costs, “will serve as a symbol of Law, Order, and JUSTICE,” Trump said in a post on Sunday, later telling reporters it was “just an idea” he had as federal judges pushed to ensure deported migrants had due process. 
-Now a major historical landmark and tourist destination, Alcatraz was once one of the most heavily fortified military sites on the West Coast before it transformed into a notorious federal penitentiary in 1934. 
+On Monday, the US Bureau of Prisons Director William K. Marshall III said his agency will “pursue all avenues” to implement Trump’s plans for reopening Alcatraz. 
 Ad Feedback
+Ad Feedback
+“I have ordered an immediate assessment to determine our needs and the next steps. USP Alcatraz has a rich history. We look forward to restoring this powerful symbol of law, order, and justice. We will be actively working with our law enforcement and other federal partners to reinstate this very important mission,” Marshall said in a statement. 
+The Department of the Interior referred CNN to Trump’s statement, saying the department and the National Park Service had “nothing to add at this time.” 
+Now a major historical landmark and tourist destination, Alcatraz was once one of the most heavily fortified military sites on the West Coast before it transformed into a notorious federal penitentiary in 1934. 
 Ad Feedback
 As a maximum-security prison surrounded by the Pacific’s strong, cold currents, Alcatraz had a reputation for being a “last resort” facility where the most dangerous and most unruly in other prisons were sent. It was virtually impossible to escape, despite numerous storied attempts. 
 Here’s what else to know about its colorful history: 
 ##  ‘Maximum-security, minimum-privilege’ 
 The island of Alcatraz’s strategic location at the entrance to San Francisco Bay made it ideal for defense. 
-Ad Feedback
 The US Army built a fort there in the 1850s and equipped it with artillery needed to protect the bay from foreign invasion amid growing US interests in the Pacific. It was also used to protect San Francisco from Confederate raiders during the Civil War. Soon after it evolved into a military prison, which it remained into the 20th century. 
 In 1933 the US military turned Alcatraz over to the Department of Justice, beginning the island’s nearly three decades as a federal prison. With its isolated location and barebones amenities, “The Rock,” as it came to be known, was meant to deliver a message to criminals. 
 “The Federal Government had decided to open a maximum-security, minimum-privilege penitentiary to deal with the most incorrigible inmates in Federal prisons, and to show the law-abiding public that the Federal Government was serious about stopping the rampant crime of the 1920s and 1930s,” according to . 
 Prisoners at Alcatraz had four rights: food, clothing, shelter, and medical care –– all other privileges, including visits from family or access to books, art supplies and music, had to be earned. 
-For all of its infamy, Alcatraz averaged a prison population of about 260 to 275 prisoners at any given time – less than 1 percent of the total federal jail population. Most of the prison’s inmates were among those who refused to conform to rules at other federal jails or who were deemed “escape risks.” 
+For all of its infamy, Alcatraz averaged a prison population of about 260 to 275 prisoners at any given time – less than 1% of the total federal jail population. Most of the prison’s inmates were among those who refused to conform to rules at other federal jails or who were deemed “escape risks.” 
 A view of Alcatraz island and penitentiary in San Francisco Bay from the 1930s.
 AFP/Getty Images
 ##  The 1962 escape that defined the prison’s notoriety 
@@ -43,7 +131,7 @@ Originally imprisoned for manslaughter in 1909, Stroud later killed a prison gua
 While in prison, Stroud began raising canaries and conducted research on birds, later publishing respected books on bird diseases. Though he was allowed to conduct his studies in his cell, prison authorities later found that equipment Stroud had requested for his experiments were used to construct a still for “home-brew,” according to the Federal Bureau of Prisons site. 
 Stroud was then transferred to Alcatraz in 1942 where he was not allowed to keep birds. He left Alcatraz for another facility in 1959 and died four years later. 
 ##  High costs and deteriorating conditions forced the prison to close 
-By the time Alcatraz prison closed, its building walls were corroded from the salty sea air. Authorities estimated that it would take roughly $3 million to $5 million to restore and maintain the facility –– excluding daily operational costs. 
+By the time Alcatraz prison closed, its building walls were corroded from the salty sea air. Authorities estimated it would take roughly $3 million to $5 million to restore and maintain the facility –– excluding daily operational costs. 
 “Alcatraz was nearly three times more expensive to operate than any other Federal prison,” according to the Federal Bureau of Prisons website. 
 After it closed, the island sat mostly unused until 1969, when a group of Native American activists occupied it for , claiming it under the Treaty of Fort Laramie. 
 Today, Alcatraz is operated by the National Park Service as a tourist destination, welcoming [approximately 1.2 million visitors a year](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen). 
@@ -51,37 +139,36 @@ It was designated as a National Historic Landmark in 1986, but such a designatio
 Tourists are seen at Alcatraz Island in August 2023.
 Tayfun Coskun/Anadolu Agency/Getty Images
 There are certain conditions that make a landmark eligible for losing the designation, such as ceasing “to meet criteria for designation; the qualities for which it was originally designated have been lost or destroyed.” 
-CNN has reached out to the Department of Interior, the National Park Service and the Bureau of Prisons for comment. 
 Former House Speaker Nancy Pelosi, a California Democrat whose district includes Alcatraz, pushed back on the president’s proposal, calling it “not a serious one.” 
 “Alcatraz closed as a federal penitentiary more than sixty years ago. It is now a very popular national park and major tourist attraction. The President’s proposal is not a serious one,” the congresswoman . 
 _CNN’s Samantha Waldenberg contributed to this report._
 ## Up next
-[ Trump says he is directing Bureau of Prisons to reopen Alcatraz to house ‘ruthless and violent offenders’ May 5, 2025  3 minute readmin read ](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen?iid=cnn_buildContentRecirc_end_recirc)
+[ Trump says he is directing Bureau of Prisons to reopen Alcatraz to house ‘ruthless and violent offenders’ May 6, 2025  4 minute readmin read ](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen?iid=cnn_buildContentRecirc_end_recirc)
+[ Trump’s order to reopen Alcatraz is the perfect metaphor for his second term May 6, 2025  6 minute readmin read ](https://www.cnn.com/2025/05/06/politics/alcatraz-reopening-trump-second-term-metaphor?iid=cnn_buildContentRecirc_end_recirc)
+[ Alcatraz, taco bowls and foreign films are on Trump’s mind May 6, 2025  4 minute readmin read ](https://www.cnn.com/2025/05/05/politics/alcatraz-trump-truth-social-movie-tariffs-what-matters?iid=cnn_buildContentRecirc_end_recirc)
+[ Trump administration argues to keep window short for alleged Tren de Aragua detainees to challenge removal May 6, 2025  4 minute readmin read ](https://www.cnn.com/2025/05/05/politics/hearing-tren-de-aragua-detainees?iid=cnn_buildContentRecirc_end_recirc)
 [ Families of detained Americans plead that they are not forgotten May 4, 2025  2 minute readmin read ](https://www.cnn.com/2025/05/04/politics/families-detained-americans-plead?iid=cnn_buildContentRecirc_end_recirc)
-[ Meeting with a member of one of the most powerful criminal networks in the world May 2, 2025  9 minute readmin read ](https://www.cnn.com/2025/05/02/americas/mexico-sinaloa-cartel-military-interviews?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump keeps finding new ways to terrify Wall Street Apr 22, 2025  4 minute readmin read ](https://www.cnn.com/2025/04/21/business/trump-fed-powell-nightcap/index.html?iid=cnn_buildContentRecirc_end_recirc)
-[ How the Trump administration labeled students as criminals with no evidence Apr 30, 2025  9 minute readmin read ](https://www.cnn.com/2025/04/29/politics/trump-administration-international-students-visas/index.html?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 ## Most read
+[ A woman missing for more than 60 years has been found alive ](https://www.cnn.com/2025/05/05/us/audrey-backeberg-missing-found-alive?iid=cnn_buildContentRecirc_end_recirc)
+[ Hollywood is shaken by Trump’s tariff plan for the movie industry ](https://www.cnn.com/2025/05/05/media/movie-tariffs-trump-hollywood?iid=cnn_buildContentRecirc_end_recirc)
+[ Air traffic controllers lost communication with Newark planes – leading to widespread delays after they took leave for trauma ](https://www.cnn.com/2025/05/05/us/newark-airport-additional-flight-delays?iid=cnn_buildContentRecirc_end_recirc)
+[ Pence rebuffs Trump on tariffs, Russia and January 6 pardons in CNN interview ](https://www.cnn.com/2025/05/05/politics/january-6-pence-trump-tariffs-russia?iid=cnn_buildContentRecirc_end_recirc)
 [ Deported from Florida to Cuba, this mom saw her 17-month-old US daughter – and her American dream – ripped away ](https://www.cnn.com/2025/05/05/americas/heidy-sanchez-cuba-mom-deported-us-daughter-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump is acting like it’s his choice whether he obeys the Constitution ](https://www.cnn.com/2025/05/05/politics/constitution-trump-nbc-interview-tariffs-canada?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump says he is directing Bureau of Prisons to reopen Alcatraz to house ‘ruthless and violent offenders’ ](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump orders a 100% tariff on foreign movies ](https://www.cnn.com/2025/05/04/media/movies-tariff-trump?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump renews threat of military force to annex Greenland ](https://www.cnn.com/2025/05/04/world/greenland-annexation-threat-trump-nbc-interview-intl-hnk?iid=cnn_buildContentRecirc_end_recirc)
-[ First Trump targeted Mexico’s drug cartels. Now it’s the musicians who sing about them ](https://www.cnn.com/2025/05/04/americas/narcocorrido-mexico-bands-us-trump-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump posts AI image of himself as pope, leaving Catholics offended and unamused as conclave nears ](https://www.cnn.com/2025/05/04/world/trump-ai-image-pope-intl-hnk?iid=cnn_buildContentRecirc_end_recirc)
-[ Why do popes choose different names and what could the name of the new pope be? ](https://www.cnn.com/2025/05/04/europe/pope-new-name-explainer-intl-scli?iid=cnn_buildContentRecirc_end_recirc)
-[ America’s largest real estate brokerages are fighting over private listings ](https://www.cnn.com/2025/05/05/economy/real-estate-fight-private-listings?iid=cnn_buildContentRecirc_end_recirc)
-[ Pence says January 6 attack’s failure ‘became a triumph of freedom’ as he receives JFK Profile in Courage Award ](https://www.cnn.com/2025/05/04/politics/mike-pence-jfk-award-january-6?iid=cnn_buildContentRecirc_end_recirc)
+[ Hegseth orders Pentagon to cut number of senior generals by 20% ](https://www.cnn.com/2025/05/05/politics/hegseth-orders-pentagon-cut-senior-generals?iid=cnn_buildContentRecirc_end_recirc)
+[ The clock is ticking down to zero, and Trump needs a trade deal — badly ](https://www.cnn.com/2025/05/05/business/trade-war-deal-trump?iid=cnn_buildContentRecirc_end_recirc)
+[ Met Gala 2025: The best looks from the red carpet ](https://www.cnn.com/2025/05/05/style/met-gala-2025-red-carpet-fashion?iid=cnn_buildContentRecirc_end_recirc)
+[ 3 killed, 5 injured in mass shooting at Arizona restaurant and event venue ](https://www.cnn.com/2025/05/05/us/shooting-glendale-arizona-multiple-injured-hnk?iid=cnn_buildContentRecirc_end_recirc)
+[ Israel vows to escalate war with new plan to ‘conquer’ Gaza ](https://www.cnn.com/2025/05/05/middleeast/israel-gaza-expansion-hnk-intl?iid=cnn_buildContentRecirc_end_recirc)
 ## More from CNN
-[ Trump says he is directing Bureau of Prisons to reopen Alcatraz to house ... May 5, 2025  ](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen?iid=cnn_buildContentRecirc_end_recirc)
-[ Families of detained Americans plead that they are not forgotten May 4, 2025  ](https://www.cnn.com/2025/05/04/politics/families-detained-americans-plead?iid=cnn_buildContentRecirc_end_recirc)
-[ Meeting with a member of one of the most powerful criminal ... May 2, 2025  ](https://www.cnn.com/2025/05/02/americas/mexico-sinaloa-cartel-military-interviews?iid=cnn_buildContentRecirc_end_recirc)
+[ Trump says he is directing Bureau of Prisons to reopen Alcatraz to house ... May 6, 2025  ](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen?iid=cnn_buildContentRecirc_end_recirc)
+[ Trump’s order to reopen Alcatraz is the perfect metaphor for his ... May 6, 2025  ](https://www.cnn.com/2025/05/06/politics/alcatraz-reopening-trump-second-term-metaphor?iid=cnn_buildContentRecirc_end_recirc)
+[ Alcatraz, taco bowls and foreign films are on Trump’s mind May 6, 2025  ](https://www.cnn.com/2025/05/05/politics/alcatraz-trump-truth-social-movie-tariffs-what-matters?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 ## News & buzz
-[ Deported from Florida to Cuba, this mom saw her 17-month-old US ... May 5, 2025  ](https://www.cnn.com/2025/05/05/americas/heidy-sanchez-cuba-mom-deported-us-daughter-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump is acting like it’s his choice whether he obeys the Constitution May 5, 2025  ](https://www.cnn.com/2025/05/05/politics/constitution-trump-nbc-interview-tariffs-canada?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump says he is directing Bureau of Prisons to reopen Alcatraz to house ... May 5, 2025  ](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen?iid=cnn_buildContentRecirc_end_recirc)
+[ A woman missing for more than 60 years has been found alive May 6, 2025  ](https://www.cnn.com/2025/05/05/us/audrey-backeberg-missing-found-alive?iid=cnn_buildContentRecirc_end_recirc)
+[ Hollywood is shaken by Trump’s tariff plan for the movie industry May 6, 2025  ](https://www.cnn.com/2025/05/05/media/movie-tariffs-trump-hollywood?iid=cnn_buildContentRecirc_end_recirc)
+[ Air traffic controllers lost communication with Newark ... May 6, 2025  ](https://www.cnn.com/2025/05/05/us/newark-airport-additional-flight-delays?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 Ad Feedback
 Ad Feedback

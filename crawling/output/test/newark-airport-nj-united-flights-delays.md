@@ -8,7 +8,6 @@ Follow:
 Aviation news [See your latest updates](https://edition.cnn.com/follow?iid=follow_see_all_article&source=acq_web_experiments_follow_card-social-bar-all)
 The FAA Air Traffic Control tower at Newark Liberty International Airport in Newark, New Jersey, is shown in March 2024.
 Angus Mordant/Bloomberg/Getty Images
-CNN — 
 For years, the shortage of certified air traffic controllers in the US has led to [flight disruptions](https://www.cnn.com/2025/01/31/us/air-traffic-control-staffing-nationwide-problem-invs) and across the country, most recently at busy Newark Liberty International Airport in New Jersey, where staffing issues have led to major delays for an unparalleled seventh day in a row. 
 The Federal Aviation Administration on Sunday implemented a Ground Delay Program and flights were delayed an average of almost four hours Sunday evening, according to an advisory from the FAA. 
 Multiple accumulating factors seem to have caused the massive delays, including the nationwide [air traffic controller shortage](https://www.cnn.com/2025/03/08/us/air-traffic-controllers-us-shortage/index.html); a walk-off by Newark air traffic controllers last week, according to United Airlines CEO Scott Kirby; the closure of a runway for ;” and technology failures caused by outdated equipment, according to Secretary of Transportation Sean Duffy. 
@@ -63,31 +62,31 @@ The FAA is using delays to slow the number of flights so the system remains safe
 CNN’s Leigh Waldman and Sabrina Souza contributed to this report. 
 ## Up next
 [ Major delays at Newark Airport roll into sixth day as FAA cites air traffic control staffing issues May 4, 2025  4 minute readmin read ](https://www.cnn.com/2025/05/02/us/newark-airport-delays-air-traffic-staffing?iid=cnn_buildContentRecirc_end_recirc)
+[ Air traffic controllers lost communication with Newark planes – leading to widespread delays after they took leave for trauma May 6, 2025  5 minute readmin read ](https://www.cnn.com/2025/05/05/us/newark-airport-additional-flight-delays?iid=cnn_buildContentRecirc_end_recirc)
+[ Inside the multi-day meltdown at Newark airport May 6, 2025  6 minute readmin read ](https://www.cnn.com/2025/05/06/us/inside-the-multi-day-meltdown-at-newark-airport?iid=cnn_buildContentRecirc_end_recirc)
 [ Flight delayed? These 14 products will help you pass the time at the airport Jan 26, 2025  2 minute readmin read ](https://www.cnn.com/cnn-underscored/travel/how-to-pass-time-at-airport?iid=cnn_buildContentRecirc_end_recirc)
-[ NTSB probing aborted landings at Reagan National Airport prompted by nearby Army helicopter May 4, 2025  4 minute readmin read ](https://www.cnn.com/2025/05/02/us/ntsb-investigation-dca-aborted-landings?iid=cnn_buildContentRecirc_end_recirc)
-[ Not feeling the trade war pain yet? Get ready Apr 25, 2025  4 minute readmin read ](https://www.cnn.com/2025/04/25/business/trump-tariff-pain-customers-nightcap/index.html?iid=cnn_buildContentRecirc_end_recirc)
-[ Israel fails to intercept Houthi missile targeting its main airport, showing the limits of US efforts to weaken the group May 5, 2025  5 minute readmin read ](https://www.cnn.com/2025/05/04/middleeast/flights-halted-at-israel-airport-yemen-strike-intl?iid=cnn_buildContentRecirc_end_recirc)
+[ Army halts some helicopter flights to Pentagon following 2 aborted landings at Reagan National Airport May 6, 2025  5 minute readmin read ](https://www.cnn.com/2025/05/02/us/ntsb-investigation-dca-aborted-landings?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 ## Most read
+[ A woman missing for more than 60 years has been found alive ](https://www.cnn.com/2025/05/05/us/audrey-backeberg-missing-found-alive?iid=cnn_buildContentRecirc_end_recirc)
+[ Hollywood is shaken by Trump’s tariff plan for the movie industry ](https://www.cnn.com/2025/05/05/media/movie-tariffs-trump-hollywood?iid=cnn_buildContentRecirc_end_recirc)
+[ Air traffic controllers lost communication with Newark planes – leading to widespread delays after they took leave for trauma ](https://www.cnn.com/2025/05/05/us/newark-airport-additional-flight-delays?iid=cnn_buildContentRecirc_end_recirc)
+[ Pence rebuffs Trump on tariffs, Russia and January 6 pardons in CNN interview ](https://www.cnn.com/2025/05/05/politics/january-6-pence-trump-tariffs-russia?iid=cnn_buildContentRecirc_end_recirc)
 [ Deported from Florida to Cuba, this mom saw her 17-month-old US daughter – and her American dream – ripped away ](https://www.cnn.com/2025/05/05/americas/heidy-sanchez-cuba-mom-deported-us-daughter-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump is acting like it’s his choice whether he obeys the Constitution ](https://www.cnn.com/2025/05/05/politics/constitution-trump-nbc-interview-tariffs-canada?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump says he is directing Bureau of Prisons to reopen Alcatraz to house ‘ruthless and violent offenders’ ](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump orders a 100% tariff on foreign movies ](https://www.cnn.com/2025/05/04/media/movies-tariff-trump?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump renews threat of military force to annex Greenland ](https://www.cnn.com/2025/05/04/world/greenland-annexation-threat-trump-nbc-interview-intl-hnk?iid=cnn_buildContentRecirc_end_recirc)
-[ First Trump targeted Mexico’s drug cartels. Now it’s the musicians who sing about them ](https://www.cnn.com/2025/05/04/americas/narcocorrido-mexico-bands-us-trump-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump posts AI image of himself as pope, leaving Catholics offended and unamused as conclave nears ](https://www.cnn.com/2025/05/04/world/trump-ai-image-pope-intl-hnk?iid=cnn_buildContentRecirc_end_recirc)
-[ Why do popes choose different names and what could the name of the new pope be? ](https://www.cnn.com/2025/05/04/europe/pope-new-name-explainer-intl-scli?iid=cnn_buildContentRecirc_end_recirc)
-[ America’s largest real estate brokerages are fighting over private listings ](https://www.cnn.com/2025/05/05/economy/real-estate-fight-private-listings?iid=cnn_buildContentRecirc_end_recirc)
-[ Pence says January 6 attack’s failure ‘became a triumph of freedom’ as he receives JFK Profile in Courage Award ](https://www.cnn.com/2025/05/04/politics/mike-pence-jfk-award-january-6?iid=cnn_buildContentRecirc_end_recirc)
+[ Hegseth orders Pentagon to cut number of senior generals by 20% ](https://www.cnn.com/2025/05/05/politics/hegseth-orders-pentagon-cut-senior-generals?iid=cnn_buildContentRecirc_end_recirc)
+[ The clock is ticking down to zero, and Trump needs a trade deal — badly ](https://www.cnn.com/2025/05/05/business/trade-war-deal-trump?iid=cnn_buildContentRecirc_end_recirc)
+[ Met Gala 2025: The best looks from the red carpet ](https://www.cnn.com/2025/05/05/style/met-gala-2025-red-carpet-fashion?iid=cnn_buildContentRecirc_end_recirc)
+[ 3 killed, 5 injured in mass shooting at Arizona restaurant and event venue ](https://www.cnn.com/2025/05/05/us/shooting-glendale-arizona-multiple-injured-hnk?iid=cnn_buildContentRecirc_end_recirc)
+[ Israel vows to escalate war with new plan to ‘conquer’ Gaza ](https://www.cnn.com/2025/05/05/middleeast/israel-gaza-expansion-hnk-intl?iid=cnn_buildContentRecirc_end_recirc)
 ## More from CNN
 [ Major delays at Newark Airport roll into sixth day as FAA cites air ... May 4, 2025  ](https://www.cnn.com/2025/05/02/us/newark-airport-delays-air-traffic-staffing?iid=cnn_buildContentRecirc_end_recirc)
-[ Flight delayed? These 14 products will help you pass the time at the ... Jan 26, 2025  ](https://www.cnn.com/cnn-underscored/travel/how-to-pass-time-at-airport?iid=cnn_buildContentRecirc_end_recirc)
-[ NTSB probing aborted landings at Reagan National Airport prompted ... May 4, 2025  ](https://www.cnn.com/2025/05/02/us/ntsb-investigation-dca-aborted-landings?iid=cnn_buildContentRecirc_end_recirc)
+[ Air traffic controllers lost communication with Newark ... May 6, 2025  ](https://www.cnn.com/2025/05/05/us/newark-airport-additional-flight-delays?iid=cnn_buildContentRecirc_end_recirc)
+[ Inside the multi-day meltdown at Newark airport May 6, 2025  ](https://www.cnn.com/2025/05/06/us/inside-the-multi-day-meltdown-at-newark-airport?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 ## News & buzz
-[ Deported from Florida to Cuba, this mom saw her 17-month-old US ... May 5, 2025  ](https://www.cnn.com/2025/05/05/americas/heidy-sanchez-cuba-mom-deported-us-daughter-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump is acting like it’s his choice whether he obeys the Constitution May 5, 2025  ](https://www.cnn.com/2025/05/05/politics/constitution-trump-nbc-interview-tariffs-canada?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump says he is directing Bureau of Prisons to reopen Alcatraz to house ... May 5, 2025  ](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen?iid=cnn_buildContentRecirc_end_recirc)
+[ A woman missing for more than 60 years has been found alive May 6, 2025  ](https://www.cnn.com/2025/05/05/us/audrey-backeberg-missing-found-alive?iid=cnn_buildContentRecirc_end_recirc)
+[ Hollywood is shaken by Trump’s tariff plan for the movie industry May 6, 2025  ](https://www.cnn.com/2025/05/05/media/movie-tariffs-trump-hollywood?iid=cnn_buildContentRecirc_end_recirc)
+[ Air traffic controllers lost communication with Newark ... May 6, 2025  ](https://www.cnn.com/2025/05/05/us/newark-airport-additional-flight-delays?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 Ad Feedback
 Ad Feedback

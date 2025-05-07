@@ -8,7 +8,6 @@ Follow:
 Federal agencies [See your latest updates](https://edition.cnn.com/follow?iid=follow_see_all_article&source=acq_web_experiments_follow_card-social-bar-all)
 The DOJ has written to Hennepin County Attorney Mary Moriarty -- pictured here in 2024.
 Mark Vancleave/AP
-CNN — 
 The Department of Justice is investigating a Minnesota county attorney’s policy that appears to suggest a defendant’s race should be considered during plea deals. 
 Assistant Attorney General Harmeet Dhillon informing the Hennepin County Attorney’s Office that the department had launched a “racial discrimination pattern and practice investigation” into the policy change. 
 “Lady Justice is blindfolded for a reason. Under the leadership of @AGPamBondi and her team, @TheJusticeDept lawyers will investigate and take action wherever necessary to identify government practices that may run afoul of our civil rights norms,” 
@@ -32,32 +31,28 @@ The DOJ Civil Rights Division was created in the 1950s to lead the DOJ’s enfor
 She told conservative commentator Glenn Beck: “En masse, dozens and now over 100 attorneys decided that they’d rather not do what their job requires them to do.” 
 Dhillon went on to say that the division’s job “is to enforce the federal civil rights laws, not woke ideology.” 
 ## Up next
-[ Jury selection set to begin in Sean ‘Diddy’ Combs criminal federal trial May 5, 2025  3 minute readmin read ](https://www.cnn.com/2025/05/05/entertainment/sean-diddy-combs-trial-jury-selection?iid=cnn_buildContentRecirc_end_recirc)
 [ Michigan officer on trial tells jurors he feared for his life before killing African immigrant May 3, 2025  4 minute readmin read ](https://www.cnn.com/2025/05/02/us/christopher-schurr-patrick-lyoya-trial?iid=cnn_buildContentRecirc_end_recirc)
 [ A guide to the Sean ‘Diddy’ Combs sex-trafficking trial May 3, 2025  4 minute readmin read ](https://www.cnn.com/2025/05/03/entertainment/sean-diddy-combs-trial-explained?iid=cnn_buildContentRecirc_end_recirc)
 [ Expected witnesses in the Sean Combs trial include former partners, a male sex worker and a friend of Cassie Ventura: Sources May 3, 2025  4 minute readmin read ](https://www.cnn.com/2025/05/02/entertainment/sean-diddy-combs-trial-witnesses?iid=cnn_buildContentRecirc_end_recirc)
-[ Politico: Ketanji Brown Jackson warns Trump’s rhetoric against judges are ‘attacks on our democracy’ May 2, 2025  2 minute readmin read ](https://www.cnn.com/2025/05/02/politics/ketanji-brown-jackson-trump-judges?iid=cnn_buildContentRecirc_end_recirc)
+[ Why jury selection in Sean ‘Diddy’ Combs’ trial will be more challenging than your average case May 5, 2025  4 minute readmin read ](https://www.cnn.com/2025/05/04/entertainment/jury-selection-sean-diddy-combs-trial?iid=cnn_buildContentRecirc_end_recirc)
+[ First of 10 prison employees charged in connection with the beating death of inmate Robert Brooks pleads guilty May 6, 2025  3 minute readmin read ](https://www.cnn.com/2025/05/05/us/robert-brooks-beating-security-guard-plea?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 ## Most read
+[ A woman missing for more than 60 years has been found alive ](https://www.cnn.com/2025/05/05/us/audrey-backeberg-missing-found-alive?iid=cnn_buildContentRecirc_end_recirc)
+[ Hollywood is shaken by Trump’s tariff plan for the movie industry ](https://www.cnn.com/2025/05/05/media/movie-tariffs-trump-hollywood?iid=cnn_buildContentRecirc_end_recirc)
+[ Air traffic controllers lost communication with Newark planes – leading to widespread delays after they took leave for trauma ](https://www.cnn.com/2025/05/05/us/newark-airport-additional-flight-delays?iid=cnn_buildContentRecirc_end_recirc)
+[ Pence rebuffs Trump on tariffs, Russia and January 6 pardons in CNN interview ](https://www.cnn.com/2025/05/05/politics/january-6-pence-trump-tariffs-russia?iid=cnn_buildContentRecirc_end_recirc)
 [ Deported from Florida to Cuba, this mom saw her 17-month-old US daughter – and her American dream – ripped away ](https://www.cnn.com/2025/05/05/americas/heidy-sanchez-cuba-mom-deported-us-daughter-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump is acting like it’s his choice whether he obeys the Constitution ](https://www.cnn.com/2025/05/05/politics/constitution-trump-nbc-interview-tariffs-canada?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump says he is directing Bureau of Prisons to reopen Alcatraz to house ‘ruthless and violent offenders’ ](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump orders a 100% tariff on foreign movies ](https://www.cnn.com/2025/05/04/media/movies-tariff-trump?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump renews threat of military force to annex Greenland ](https://www.cnn.com/2025/05/04/world/greenland-annexation-threat-trump-nbc-interview-intl-hnk?iid=cnn_buildContentRecirc_end_recirc)
-[ First Trump targeted Mexico’s drug cartels. Now it’s the musicians who sing about them ](https://www.cnn.com/2025/05/04/americas/narcocorrido-mexico-bands-us-trump-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump posts AI image of himself as pope, leaving Catholics offended and unamused as conclave nears ](https://www.cnn.com/2025/05/04/world/trump-ai-image-pope-intl-hnk?iid=cnn_buildContentRecirc_end_recirc)
-[ Why do popes choose different names and what could the name of the new pope be? ](https://www.cnn.com/2025/05/04/europe/pope-new-name-explainer-intl-scli?iid=cnn_buildContentRecirc_end_recirc)
-[ America’s largest real estate brokerages are fighting over private listings ](https://www.cnn.com/2025/05/05/economy/real-estate-fight-private-listings?iid=cnn_buildContentRecirc_end_recirc)
-[ Pence says January 6 attack’s failure ‘became a triumph of freedom’ as he receives JFK Profile in Courage Award ](https://www.cnn.com/2025/05/04/politics/mike-pence-jfk-award-january-6?iid=cnn_buildContentRecirc_end_recirc)
-## More from CNN
-[ Jury selection set to begin in Sean ‘Diddy’ Combs criminal federal trial May 5, 2025  ](https://www.cnn.com/2025/05/05/entertainment/sean-diddy-combs-trial-jury-selection?iid=cnn_buildContentRecirc_end_recirc)
-[ Michigan officer on trial tells jurors he feared for his life before killing ... May 3, 2025  ](https://www.cnn.com/2025/05/02/us/christopher-schurr-patrick-lyoya-trial?iid=cnn_buildContentRecirc_end_recirc)
-[ A guide to the Sean ‘Diddy’ Combs sex-trafficking trial May 3, 2025  ](https://www.cnn.com/2025/05/03/entertainment/sean-diddy-combs-trial-explained?iid=cnn_buildContentRecirc_end_recirc)
+[ Hegseth orders Pentagon to cut number of senior generals by 20% ](https://www.cnn.com/2025/05/05/politics/hegseth-orders-pentagon-cut-senior-generals?iid=cnn_buildContentRecirc_end_recirc)
+[ The clock is ticking down to zero, and Trump needs a trade deal — badly ](https://www.cnn.com/2025/05/05/business/trade-war-deal-trump?iid=cnn_buildContentRecirc_end_recirc)
+[ Met Gala 2025: The best looks from the red carpet ](https://www.cnn.com/2025/05/05/style/met-gala-2025-red-carpet-fashion?iid=cnn_buildContentRecirc_end_recirc)
+[ 3 killed, 5 injured in mass shooting at Arizona restaurant and event venue ](https://www.cnn.com/2025/05/05/us/shooting-glendale-arizona-multiple-injured-hnk?iid=cnn_buildContentRecirc_end_recirc)
+[ Israel vows to escalate war with new plan to ‘conquer’ Gaza ](https://www.cnn.com/2025/05/05/middleeast/israel-gaza-expansion-hnk-intl?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 ## News & buzz
-[ Deported from Florida to Cuba, this mom saw her 17-month-old US ... May 5, 2025  ](https://www.cnn.com/2025/05/05/americas/heidy-sanchez-cuba-mom-deported-us-daughter-intl-latam?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump is acting like it’s his choice whether he obeys the Constitution May 5, 2025  ](https://www.cnn.com/2025/05/05/politics/constitution-trump-nbc-interview-tariffs-canada?iid=cnn_buildContentRecirc_end_recirc)
-[ Trump says he is directing Bureau of Prisons to reopen Alcatraz to house ... May 5, 2025  ](https://www.cnn.com/2025/05/04/politics/trump-alcatraz-prisons-reopen?iid=cnn_buildContentRecirc_end_recirc)
+[ A woman missing for more than 60 years has been found alive May 6, 2025  ](https://www.cnn.com/2025/05/05/us/audrey-backeberg-missing-found-alive?iid=cnn_buildContentRecirc_end_recirc)
+[ Hollywood is shaken by Trump’s tariff plan for the movie industry May 6, 2025  ](https://www.cnn.com/2025/05/05/media/movie-tariffs-trump-hollywood?iid=cnn_buildContentRecirc_end_recirc)
+[ Air traffic controllers lost communication with Newark ... May 6, 2025  ](https://www.cnn.com/2025/05/05/us/newark-airport-additional-flight-delays?iid=cnn_buildContentRecirc_end_recirc)
 Ad Feedback
 Ad Feedback
 Ad Feedback

@@ -47,4 +47,4 @@ def extract_links_from_markdown(content: str) -> List[Dict[str, str]]:
     }
 
     # Return a list of dictionaries with 'text' and 'url'
-    return [{"text": text, "url": url} for text, url in links]
+    return [{"title": title, "url": url} for title, url in links]

@@ -1,10 +1,9 @@
-import json
 import asyncio
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
 from .text_preprocessing import extract_links_from_markdown
 
 def get_links_from_homepage(url, css_selector):
-    async def helper_func():
+    async def helper_func(url, css_selector):
         browser_config = BrowserConfig(headless=True)
         crawler_config = CrawlerRunConfig(
             cache_mode=CacheMode.BYPASS,
@@ -16,9 +15,8 @@ def get_links_from_homepage(url, css_selector):
                 url=url,
                 config=crawler_config
             )
-            links_list = extract_links_from_markdown(result.markdown)
-            with open("links.json", "w") as f:
-                json.dump(links_list, f, indent=4)
+        
+        return extract_links_from_markdown(result.markdown)
+            
     
-    asyncio.run(helper_func())
-    
+    return asyncio.run(helper_func(url, css_selector))

@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Web News Scraper & Summarizer</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* Additional styles for HTML version */
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #F7F7F7;
+            color: #433733;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .header.scrolled {
+            padding: 5px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: #f9f9f9;
+        }
+
+        .msn-logo {
+            height: 30px;
+            margin-left: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .header.scrolled .msn-logo {
+            height: 25px;
+        }
+
+        .search-container {
+            flex-grow: 1;
+            margin: 0 20px;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 8px 15px;
+            padding-left: 35px;
+            border-radius: 20px;
+            border: 1px solid #e0e0e0;
+            background-color: #f5f5f5;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .header.scrolled .search-input {
+            padding: 6px 15px;
+            padding-left: 35px;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #666;
+        }
+
+        .settings-icon {
+            margin-right: 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .nav-container {
+            display: flex;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 5px 0;
+            overflow-x: auto;
+            position: sticky;
+            top: 50px; /* Initial position below header */
+            z-index: 999;
+            transition: all 0.3s ease;
+        }
+
+        .nav-container.scrolled {
+            top: 40px; /* Adjusted position when header is smaller */
+        }
+
+        .nav-item {
+            padding: 8px 15px;
+            margin: 0 5px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .nav-item:hover, .nav-item.active {
+            background-color: #f0f0f0;
+        }
+
+        .main-content {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .content-area {
+            flex: 7;
+            padding-right: 20px;
+        }
+
+        .sidebar {
+            flex: 3;
+        }
+
+
+
+
+
+        .news-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 10px 0;
+        }
+
+        .news-card {
+            background-color: #ffffff;
+            border-radius: 4px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .news-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .news-content {
+            padding: 15px;
+        }
+
+        .news-source {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .source-logo {
+            width: 16px;
+            height: 16px;
+            margin-right: 6px;
+        }
+
+        .news-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .news-actions {
+            display: flex;
+            padding: 8px 15px;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        .action-button {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .featured-news-slider {
+            overflow-x: auto;
+            display: flex;
+            padding: 10px 0;
+            scrollbar-width: thin;
+        }
+
+        .featured-news-card {
+            min-width: 300px;
+            margin-right: 15px;
+            background-color: #ffffff;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .featured-image {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        .slider-dots {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+
+        .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #ccc;
+            margin: 0 3px;
+        }
+
+        .dot.active {
+            background-color: #666;
+        }
+
+        .sidebar-widget {
+            background-color: #ffffff;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .widget-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .login-button {
+            background-color: #0078d4;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .login-button:hover {
+            background-color: #006cbe;
+        }
+
+        .financial-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 14px;
+        }
+
+        .financial-name {
+            color: #333;
+        }
+
+        .financial-value {
+            font-weight: 500;
+        }
+
+        .up {
+            color: #4caf50;
+        }
+
+        .down {
+            color: #f44336;
+        }
+
+        .weather-widget {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .weather-icon {
+            font-size: 40px;
+            margin-right: 15px;
+        }
+
+        .weather-forecast {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .forecast-day {
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+
+            .content-area {
+                padding-right: 0;
+            }
+
+            .news-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <!-- <img src="assets/images/msn-logo.svg" alt="MSN Logo" class="msn-logo"> -->
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Tìm kiếm trên web">
+                <span class="search-icon">🔍</span>
+            </div>
+            <div class="settings-icon">⚙️</div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="nav-container">
+            <div class="nav-item active">Khám phá</div>
+            <div class="nav-item">Tin tức</div>
+            <div class="nav-item">Thể thao</div>
+            <div class="nav-item">Tài chính</div>
+            <div class="nav-item">Thời tiết</div>
+            <div class="nav-item">Giải trí</div>
+            <div class="nav-item">Cung hoàng đạo</div>
+            <div class="nav-item">Tin địa điểm</div>
+            <div class="nav-item">Pháp luật</div>
+        </nav>
+
+
+
+
+
+        <div class="main-content">
+            <!-- Main Content Area -->
+            <div class="content-area">
+                <!-- Featured News -->
+                <h3>Tin nổi bật</h3>
+                <div class="featured-news-slider">
+                    <div class="featured-news-card">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1EifeT.img?w=612&h=304&q=60&m=6&f=jpg&x=204&y=304&u=t" alt="Hai Hồng y có cơ hội trở thành Giáo hoàng gốc Á đầu tiên" class="featured-image">
+                        <div style="padding: 12px;">
+                            <div class="news-source">
+                                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB131kvb?w=16&h=16&q=100&m=6&f=png&u=t" alt="VnExpress" class="source-logo">
+                                VnExpress · 9 giờ
+                            </div>
+                            <h3 class="news-title">Hai Hồng y có cơ hội trở thành Giáo hoàng gốc Á đầu tiên</h3>
+                            <div class="news-actions">
+                                <span class="action-button">❤️ 22</span>
+                                <span class="action-button">💬 5</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-news-card">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1EgnBt.img?w=612&h=304&q=60&m=6&f=jpg&u=t" alt="Vì sao các tăng ni đều cao đầu nhưng Đức Phật lại để tóc?" class="featured-image">
+                        <div style="padding: 12px;">
+                            <div class="news-source">
+                                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBZJRUS?w=16&h=16&q=100&m=6&f=png&u=t" alt="VTC News" class="source-logo">
+                                VTC News · 6 giờ
+                            </div>
+                            <h3 class="news-title">Vì sao các tăng ni đều cao đầu nhưng Đức Phật lại để tóc?</h3>
+                            <div class="news-actions">
+                                <span class="action-button">❤️ 12</span>
+                                <span class="action-button">💬 3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-news-card">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1EiPMF.img?w=268&h=140&q=60&m=6&f=jpg&u=t" alt="Tổng Bí thư Tô Lâm dự lễ duyệt binh kỷ niệm Ngày Chiến thắng ở Nga" class="featured-image">
+                        <div style="padding: 12px;">
+                            <div class="news-source">
+                                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB9mld4?w=16&h=16&q=100&m=6&f=png&u=t" alt="Tuổi trẻ" class="source-logo">
+                                Tuổi trẻ · 47 phút
+                            </div>
+                            <h3 class="news-title">Tổng Bí thư Tô Lâm dự lễ duyệt binh kỷ niệm Ngày Chiến thắng ở Nga</h3>
+                            <div class="news-actions">
+                                <span class="action-button">❤️ 34</span>
+                                <span class="action-button">💬 8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-dots">
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+
+                <!-- News Grid -->
+                <h3>Tin tức</h3>
+                <div class="news-container">
+                    <div class="news-card">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1EirAD.img?w=268&h=140&q=60&m=6&f=jpg&u=t" alt="Đã có hàng nghìn lượt xem, góp ý sửa Hiến pháp trên cổng thông tin điện tử" class="news-image">
+                        <div class="news-content">
+                            <div class="news-source">
+                                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1IQAXX?w=16&h=16&q=100&m=6&f=png&u=t" alt="Lao Động" class="source-logo">
+                                Lao Động · 4 giờ
+                            </div>
+                            <h3 class="news-title">Đã có hàng nghìn lượt xem, góp ý sửa Hiến pháp trên cổng thông tin điện tử</h3>
+                            <p>Sau gần 1 tuần vận hành, Cổng thông tin điện tử góp ý dự thảo sửa đổi Hiến pháp đã thu hút được hàng nghìn lượt truy cập và hàng trăm ý kiến đóng góp.</p>
+                        </div>
+                        <div class="news-actions">
+                            <span class="action-button">❤️ 18</span>
+                            <span class="action-button">💬 6</span>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Ei8J5.img?w=268&h=140&q=60&m=6&f=jpg&u=t" alt="Thường trực Ban Bí thư sẽ làm việc với các tỉnh thành về Quy hoạch" class="news-image">
+                        <div class="news-content">
+                            <div class="news-source">
+                                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB131kvb?w=16&h=16&q=100&m=6&f=png&u=t" alt="VnExpress" class="source-logo">
+                                VnExpress · 3 giờ
+                            </div>
+                            <h3 class="news-title">Thường trực Ban Bí thư sẽ làm việc với các tỉnh thành về Quy hoạch</h3>
+                            <p>Thường trực Ban Bí thư Lương Cường sẽ làm việc với lãnh đạo các tỉnh, thành phố về việc triển khai thực hiện Quy hoạch tổng thể quốc gia thời kỳ 2021 - 2030.</p>
+                        </div>
+                        <div class="news-actions">
+                            <span class="action-button">❤️ 15</span>
+                            <span class="action-button">💬 2</span>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Ei10s.img?w=485&h=273&q=60&m=6&f=jpg&u=t" alt="Điều gì xảy ra khi ăn bánh ngọt buổi sáng?" class="news-image">
+                        <div class="news-content">
+                            <div class="news-source">
+                                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB131kvb?w=16&h=16&q=100&m=6&f=png&u=t" alt="VnExpress" class="source-logo">
+                                VnExpress · 3 ngày
+                            </div>
+                            <h3 class="news-title">Điều gì xảy ra khi ăn bánh ngọt buổi sáng?</h3>
+                            <p>Bánh ngọt chứa nhiều đường và chất béo có thể gây tăng lượng đường trong máu đột ngột, dẫn đến cảm giác mệt mỏi và đói nhanh chóng vào buổi sáng.</p>
+                        </div>
+                        <div class="news-actions">
+                            <span class="action-button">❤️ 11</span>
+                            <span class="action-button">💬 4</span>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1EguWO.img?w=485&h=273&q=60&m=6&f=jpg&u=t" alt="4 loại thiết bị nên rút điện khi không ở nhà" class="news-image">
+                        <div class="news-content">
+                            <div class="news-source">
+                                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB131kvb?w=16&h=16&q=100&m=6&f=png&u=t" alt="VnExpress" class="source-logo">
+                                VnExpress · 22 giờ
+                            </div>
+                            <h3 class="news-title">4 loại thiết bị nên rút điện khi không ở nhà</h3>
+                            <p>Các chuyên gia khuyên không nên để những thiết bị như bàn là, máy sạc, máy giặt, máy rửa bát cắm điện khi không có người ở nhà để tránh nguy cơ cháy nổ.</p>
+                        </div>
+                        <div class="news-actions">
+                            <span class="action-button">❤️ 33</span>
+                            <span class="action-button">💬 9</span>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Eir75.img?w=485&h=273&q=60&m=6&f=jpg&u=t" alt="Thu giữ hơn 3 tạ rau quả nhiễm hóa chất độc hại" class="news-image">
+                        <div class="news-content">
+                            <div class="news-source">
+                                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB9mld4?w=16&h=16&q=100&m=6&f=png&u=t" alt="Tuổi trẻ" class="source-logo">
+                                Tuổi trẻ · 2 giờ
+                            </div>
+                            <h3 class="news-title">Thu giữ hơn 3 tạ rau quả nhiễm hóa chất độc hại</h3>
+                            <p>Đoàn kiểm tra liên ngành đã phát hiện và thu giữ hơn 300kg rau quả các loại nhiễm hóa chất độc hại tại một chợ đầu mối ở TP.HCM.</p>
+                        </div>
+                        <div class="news-actions">
+                            <span class="action-button">❤️ 5</span>
+                            <span class="action-button">💬 1</span>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Eibb9.img?w=485&h=273&q=60&m=6&f=jpg&u=t" alt="5 loại nước gây hại cho thận" class="news-image">
+                        <div class="news-content">
+                            <div class="news-source">
+                                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1vO4hY?w=16&h=16&q=100&m=6&f=png&u=t" alt="Ngôi sao" class="source-logo">
+                                Ngôi sao · 2 tuần
+                            </div>
+                            <h3 class="news-title">5 loại nước gây hại cho thận</h3>
+                            <p>Các chuyên gia cho biết, nước ngọt có ga, rượu bia, nước tăng lực, nước trái cây có đường và cà phê có thể gây hại cho thận nếu sử dụng thường xuyên.</p>
+                        </div>
+                        <div class="news-actions">
+                            <span class="action-button">❤️ 195</span>
+                            <span class="action-button">💬 37</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <!-- <div class="sidebar"> -->
+                <!-- Financial Widget -->
+                <!-- <div class="sidebar-widget">
+                    <h3 class="widget-title">Đề xuất danh sách theo dõi</h3>
+                    <div class="financial-item">
+                        <div>
+                            <div class="financial-name">JPY/VND</div>
+                            <div style="font-size: 12px; color: #666;">Đồng Yên Nhật/Việt Nam</div>
+                        </div>
+                        <div>
+                            <div class="financial-value">181.17</div>
+                            <div class="financial-change down">-0.54%</div>
+                        </div>
+                    </div>
+                    <div class="financial-item">
+                        <div>
+                            <div class="financial-name">Citigroup Inc</div>
+                            <div style="font-size: 12px; color: #666;">C</div>
+                        </div>
+                        <div>
+                            <div class="financial-value">69.47</div>
+                            <div class="financial-change down">-1.10%</div>
+                        </div>
+                    </div>
+                    <div class="financial-item">
+                        <div>
+                            <div class="financial-name">KRW/VND</div>
+                            <div style="font-size: 12px; color: #666;">Đồng Won của Hàn Quốc/Việt Nam</div>
+                        </div>
+                        <div>
+                            <div class="financial-value">18.629</div>
+                            <div class="financial-change down">-1.16%</div>
+                        </div>
+                    </div>
+                    <div class="financial-item">
+                        <div>
+                            <div class="financial-name">USD/JPY</div>
+                            <div style="font-size: 12px; color: #666;">Đô la Mỹ/Đồng Yên Nhật</div>
+                        </div>
+                        <div>
+                            <div class="financial-value">143.24</div>
+                            <div class="financial-change up">+0.58%</div>
+                        </div>
+                    </div>
+                    <div class="financial-item">
+                        <div>
+                            <div class="financial-name">JPY/USD</div>
+                            <div style="font-size: 12px; color: #666;">Đồng Yên Nhật/Đô la Mỹ</div>
+                        </div>
+                        <div>
+                            <div class="financial-value">0.006981</div>
+                            <div class="financial-change down">-0.56%</div>
+                        </div>
+                    </div>
+                    <div style="text-align: right; margin-top: 10px; font-size: 12px; color: blue;">Xem đề xuất danh sách theo dõi khác</div>
+                </div> -->
+
+                <!-- Personalization Widget -->
+                <!-- <div class="sidebar-widget">
+                    <h3 class="widget-title">Cá nhân hóa</h3>
+                    <p>Đăng nhập để cá nhân hóa nội dung của bạn</p>
+                    <button class="login-button">Đăng nhập</button>
+                </div> -->
+
+                <!-- Weather Widget -->
+                <!-- <div class="sidebar-widget">
+                    <h3 class="widget-title">Thời tiết</h3>
+                    <div class="weather-widget">
+                        <div class="weather-icon">☀️</div>
+                        <div>
+                            <div style="font-size: 18px;">Hà Nội</div>
+                            <div style="font-size: 24px; font-weight: 500;">32°C</div>
+                            <div style="font-size: 12px; color: #666;">Nắng, cảm giác như 36°C</div>
+                        </div>
+                    </div>
+                    <div class="weather-forecast">
+                        <div class="forecast-day">
+                            <div>T5</div>
+                            <div>🌤️</div>
+                            <div>33°</div>
+                        </div>
+                        <div class="forecast-day">
+                            <div>T6</div>
+                            <div>⛅</div>
+                            <div>32°</div>
+                        </div>
+                        <div class="forecast-day">
+                            <div>T7</div>
+                            <div>🌦️</div>
+                            <div>30°</div>
+                        </div>
+                        <div class="forecast-day">
+                            <div>CN</div>
+                            <div>🌧️</div>
+                            <div>29°</div>
+                        </div>
+                        <div class="forecast-day">
+                            <div>T2</div>
+                            <div>⛅</div>
+                            <div>31°</div>
+                        </div>
+                    </div> 
+                </div> -->
+            <!--</div>-->
+        </div>
+    </div>
+
+    <script>
+        // Simple slider functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const dots = document.querySelectorAll('.dot');
+            let currentDot = 0;
+
+            setInterval(() => {
+                dots[currentDot].classList.remove('active');
+                currentDot = (currentDot + 1) % dots.length;
+                dots[currentDot].classList.add('active');
+            }, 5000);
+
+            // Nav item click
+            const navItems = document.querySelectorAll('.nav-item');
+            navItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    navItems.forEach(i => i.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+
+            // Scroll event for sticky header
+            const header = document.querySelector('.header');
+            const navContainer = document.querySelector('.nav-container');
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 10) {
+                    header.classList.add('scrolled');
+                    navContainer.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                    navContainer.classList.remove('scrolled');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

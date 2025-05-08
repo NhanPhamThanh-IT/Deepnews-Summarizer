@@ -1,7 +1,5 @@
-from .file_handling import save_file
-from .text_preprocessing import get_all_links
+from .scrapper import get_links_from_homepage
 
 __all__ = [
-    "save_file",
-    "get_all_links",
+    "get_links_from_homepage",
 ]

@@ -1,21 +1,4 @@
 {
-    "NEWS_URL": "https://edition.cnn.com/us",
-    "FILE_PATH": "output/result.md",
-    "THRESHOLD": {
-        "VALUE": 0.5,
-        "TYPE": "dynamic"
-    },
-    "EXCLUDED_TAGS": [
-        "nav",
-        "footer",
-        "header",
-        "script",
-        "style",
-        "svg",
-        "iframe",
-        "canvas",
-        "video",
-        "audio",
-        "picture"
-    ]
+    "url": "https://edition.cnn.com/us",
+    "css_selector": ".container__link--type-article"
 }

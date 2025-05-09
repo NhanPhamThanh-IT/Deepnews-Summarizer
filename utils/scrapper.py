@@ -20,3 +20,22 @@ def get_links_from_homepage(url, css_selector):
             
     
     return asyncio.run(helper_func(url, css_selector))
+
+# def scrap_from_direct_url(url):
+#     async def helper_func(url):
+#         browser_config = BrowserConfig(headless=True)
+#         crawler_config = CrawlerRunConfig(
+#             cache_mode=CacheMode.BYPASS,
+#             css_selector="a"
+#         )
+
+#         async with AsyncWebCrawler(config=browser_config) as crawler:
+#             result = await crawler.arun(
+#                 url=url,
+#                 config=crawler_config
+#             )
+        
+#         return extract_links_from_markdown(result.markdown)
+            
+    
+#     return asyncio.run(helper_func(url))

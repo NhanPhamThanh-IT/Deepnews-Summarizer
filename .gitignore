@@ -171,3 +171,5 @@ cython_debug/
 .pypirc
 
 output/
+temp.py
+test.py

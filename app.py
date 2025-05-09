@@ -1,5 +1,6 @@
 import streamlit as st
 from utils import setup_asyncio_policy_if_windows, get_links_from_homepage, load_config
+from ui import display_page_configuration
 
 try:
     CONFIG = load_config()
@@ -12,16 +13,6 @@ except Exception as e:
 
 DEFAULT_URL = "https://example.com"
 DEFAULT_CSS_SELECTOR = "a"
-
-def display_page_configuration():
-    st.set_page_config(
-        page_title="Professional Web Scraper",
-        page_icon="",
-        layout="wide",
-        initial_sidebar_state="expanded"
-    )
-    st.title("Professional Web Scraper")
-    st.caption("A simple tool for extracting links from web pages.")
 
 def display_input_controls():
     st.sidebar.header("Scraper Configuration")
@@ -51,7 +42,7 @@ def display_scraped_links(links_data):
             url = link_info.get('url', '#')
             st.markdown(f"{index + 1}. **{title.strip()}**: [{url.strip()}]({url.strip()})")
 
-def run_scraper_application():
+def main():
     display_page_configuration()
     current_url, current_css_selector = display_input_controls()
 
@@ -73,7 +64,6 @@ def run_scraper_application():
             if links:
                 results_area.success("Data scraped successfully!")
                 display_scraped_links(links)
-                st.success("Information: Data has been automatically saved to 'links.json' (if applicable).")
             else:
                 results_area.info("No links found on the page or no links matching your CSS selector.")
 
@@ -88,4 +78,4 @@ def run_scraper_application():
 if __name__ == "__main__":
     if setup_asyncio_policy_if_windows() != None:
         st.warning("Windows Proactor Event Loop Policy set successfully.")
-    run_scraper_application()
+    main()

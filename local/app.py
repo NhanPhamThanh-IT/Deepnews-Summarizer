@@ -12,7 +12,7 @@ def main():
     st.write("This app scrapes the latest articles from CNN using an API.")
 
     # Gọi API từ FastAPI
-    api_url = "http://127.0.0.1:8000/scrape"  # Đổi URL nếu cần
+    api_url = "https://nlpapplication.onrender.com/scrape"  # Đổi URL nếu cần
     response = requests.get(api_url)
     
     if response.status_code == 200:

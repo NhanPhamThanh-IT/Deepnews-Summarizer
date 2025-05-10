@@ -1,46 +1,21 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
-import time
+# scraper.py
+import httpx
+from bs4 import BeautifulSoup
 
-def scrape_cnn_articles():
-    # Cấu hình Chrome cho headless mode
-    options = Options()
-    options.add_argument('--headless')
-    options.add_argument('--no-sandbox')
-    options.add_argument('--disable-dev-shm-usage')
+async def scrape_cnn_articles():
+    url = "https://edition.cnn.com/world"
+    async with httpx.AsyncClient() as client:
+        response = await client.get(url)
+        soup = BeautifulSoup(response.text, "html.parser")
 
-    # Khởi tạo WebDriver
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+        articles = []
+        for link in soup.select("h3 a"):
+            href = link.get("href")
+            title = link.text.strip()
+            if href and title:
+                articles.append({
+                    "title": title,
+                    "url": f"https://edition.cnn.com{href}" if href.startswith("/") else href
+                })
 
-    # URL trang CNN cần scrap
-    url = "https://edition.cnn.com/us"  # Đổi URL nếu cần
-    driver.get(url)
-    time.sleep(3)  # Chờ tải trang
-
-    articles = []
-
-    # Tìm tất cả thẻ <a> có class như bạn yêu cầu
-    anchor_tags = driver.find_elements(By.CSS_SELECTOR, 'a.container__link.container__link--type-article.container_lead-plus-headlines__link')
-
-    for a in anchor_tags:
-        try:
-            # Lấy các thuộc tính cần thiết từ thẻ <a>
-            href = a.get_attribute("href")
-            
-            # Tìm tiêu đề từ thẻ <span class="container__headline-text">
-            title = a.find_element(By.CLASS_NAME, "container__headline-text").text.strip()
-
-            # Lưu kết quả
-            articles.append({
-                "title": title,
-                "url": href
-            })
-        except Exception as e:
-            print(f"Skipped one item due to: {e}")
-            continue
-
-    driver.quit()  # Đóng driver sau khi xong
-    return articles
+        return articles

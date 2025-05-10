@@ -3,9 +3,6 @@ from utils import get_links_from_homepage, load_config
 import asyncio
 import sys
 
-import asyncio
-import sys
-
 def setup_asyncio_policy(platform):
     """Set asyncio policy based on the platform."""
     try:
@@ -81,6 +78,6 @@ def main():
     scrape_links(url, css_selector, results_area)
 
 if __name__ == "__main__":
-    # platform = sys.platform
-    # setup_asyncio_policy(platform)
+    platform = sys.platform
+    setup_asyncio_policy(platform)
     main()

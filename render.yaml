@@ -9,3 +9,4 @@ services:
       playwright install
       pip install playwright
       playwright install chromium
+      

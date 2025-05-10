@@ -1,20 +1,46 @@
 import streamlit as st
 from utils import get_links_from_homepage, load_config
 import asyncio
+import asyncio
 import sys
 
-def setup_asyncio_policy(platform):
-    """Set asyncio policy based on the platform."""
-    try:
-        # Windows: Ensure the correct event loop policy is set.
-        loop = asyncio.get_event_loop()
-        if not isinstance(asyncio.get_event_loop_policy(), asyncio.WindowsProactorEventLoopPolicy):
-            asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
-    except RuntimeError:
-        # If there's no event loop yet, set the policy
-        asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
-    except Exception as e:
-        print(f"[Warning] Could not set Windows asyncio policy: {e}")
+def setup_asyncio_policy():
+    """Set asyncio policy based on the current platform."""
+    platform = sys.platform
+
+    if platform.startswith('win'):
+        try:
+            # Import WindowsProactorEventLoopPolicy only if on Windows
+            from asyncio import WindowsProactorEventLoopPolicy
+
+            if not isinstance(asyncio.get_event_loop_policy(), WindowsProactorEventLoopPolicy):
+                asyncio.set_event_loop_policy(WindowsProactorEventLoopPolicy())
+        except (RuntimeError, ImportError, AttributeError) as e:
+            print(f"[Warning] Could not set Windows asyncio policy: {e}")
+
+    elif platform.startswith('linux'):
+        try:
+            try:
+                import uvloop
+                asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
+                print("Running on Linux platform with UVLoop policy for enhanced performance.")
+            except ImportError:
+                print("Running on Linux platform. Using default asyncio event loop (uvloop not installed).")
+
+            try:
+                import resource
+                soft_limit, hard_limit = resource.getrlimit(resource.RLIMIT_NOFILE)
+                if soft_limit < 1024:
+                    resource.setrlimit(resource.RLIMIT_NOFILE, (1024, hard_limit))
+                    print("Increased file descriptor limit for better performance.")
+            except (ImportError, ValueError, resource.error) as e:
+                print(f"[Warning] Could not adjust file descriptor limit: {e}")
+
+        except Exception as e:
+            print(f"[Warning] Error setting up Linux asyncio configuration: {e}")
+
+    else:
+        print(f"[Info] Unknown or unsupported platform: {platform}. No special handling applied.")
 
 st.set_page_config(page_title="Daily News", page_icon="🔗", layout="wide")
 
@@ -78,6 +104,5 @@ def main():
     scrape_links(url, css_selector, results_area)
 
 if __name__ == "__main__":
-    platform = sys.platform
-    setup_asyncio_policy(platform)
+    setup_asyncio_policy()
     main()

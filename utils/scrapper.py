@@ -17,25 +17,15 @@ def get_links_from_homepage(url, css_selector):
             )
         
         return extract_links_from_markdown(result.markdown)
-            
-    
-    return asyncio.run(helper_func(url, css_selector))
 
-# def scrap_from_direct_url(url):
-#     async def helper_func(url):
-#         browser_config = BrowserConfig(headless=True)
-#         crawler_config = CrawlerRunConfig(
-#             cache_mode=CacheMode.BYPASS,
-#             css_selector="a"
-#         )
+    try:
+        loop = asyncio.get_running_loop()
+    except RuntimeError:  # Không có loop nào đang chạy
+        loop = None
 
-#         async with AsyncWebCrawler(config=browser_config) as crawler:
-#             result = await crawler.arun(
-#                 url=url,
-#                 config=crawler_config
-#             )
-        
-#         return extract_links_from_markdown(result.markdown)
-            
-    
-#     return asyncio.run(helper_func(url))
+    if loop and loop.is_running():
+        # Nếu đang trong event loop (rất hiếm trong Streamlit), dùng task và đợi
+        return asyncio.run_coroutine_threadsafe(helper_func(url, css_selector), loop).result()
+    else:
+        # Bình thường sẽ chạy vào đây trong Streamlit
+        return asyncio.run(helper_func(url, css_selector))

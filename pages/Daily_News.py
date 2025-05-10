@@ -1,7 +1,6 @@
 import streamlit as st
-from utils import setup_asyncio_policy_if_windows, get_links_from_homepage, load_config
+from utils import get_links_from_homepage, load_config
 
-# Cấu hình trang
 st.set_page_config(page_title="Daily News", page_icon="🔗", layout="wide")
 
 try:
@@ -64,6 +63,4 @@ def main():
     scrape_links(url, css_selector, results_area)
 
 if __name__ == "__main__":
-    if setup_asyncio_policy_if_windows() is not None:
-        st.warning("Windows Proactor Event Loop Policy set successfully.")
     main()

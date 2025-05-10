@@ -81,6 +81,6 @@ def main():
     scrape_links(url, css_selector, results_area)
 
 if __name__ == "__main__":
-    platform = sys.platform
-    setup_asyncio_policy(platform)
+    # platform = sys.platform
+    # setup_asyncio_policy(platform)
     main()

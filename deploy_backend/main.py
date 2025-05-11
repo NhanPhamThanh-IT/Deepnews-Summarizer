@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from deploy_backend.scraper import scrape_cnn_articles
+from scraper import scrape_cnn_articles
 
 app = FastAPI()
 

@@ -1,35 +1,58 @@
 import streamlit as st
+from components.display import display_articles, display_article_content
+from utils.api import fetch_articles
 
-# Cấu hình trang
-st.set_page_config(page_title="Trang Chính", page_icon="🏠")
+def main():
+    # Tải CSS tùy chỉnh
+    with open("assets/style.css") as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# Tiêu đề chính
-st.title("🏠 Trang chính")
-st.write("Chào mừng đến với ứng dụng Streamlit! Dưới đây là hai chức năng chính:")
+    st.title("📰 CNN News Scraper")
+    st.write("This application uses FastAPI to scrape news from CNN.")
 
-# Hai cột hiển thị
-col1, col2 = st.columns(2)
+    # Khởi tạo session state
+    if "selected_article_url" not in st.session_state:
+        st.session_state.selected_article_url = None
+    if "articles" not in st.session_state:
+        st.session_state.articles = []
+    if "selected_tab" not in st.session_state:
+        st.session_state.selected_tab = "Politics"
 
-with col1:
-    st.subheader("📰 Tin tức hàng ngày")
-    st.write("📅 Tự động cập nhật các bản tin mới nhất mỗi ngày.")
-    st.markdown("""
-    **Tính năng:**
-    - Tổng hợp từ nhiều nguồn đáng tin cậy
-    - Hiển thị theo thứ tự thời gian
-    - Giao diện đơn giản, dễ đọc
-    """)
-    if st.button("🔎 Vào Tin tức hàng ngày"):
-        st.switch_page("pages/Daily_News.py")
+    # Nếu đang xem nội dung bài viết
+    if st.session_state.selected_article_url:
+        display_article_content(st.session_state.selected_article_url)
+        return
 
-with col2:
-    st.subheader("🔍 Tìm kiếm tùy chỉnh")
-    st.write("🎯 Lọc và tìm kiếm tin tức theo ý bạn.")
-    st.markdown("""
-    **Tính năng:**
-    - Nhập từ khóa để tìm tin liên quan
-    - Chọn ngày, danh mục, nguồn
-    - Giao diện tương tác
-    """)
-    if st.button("🔧 Vào Tìm kiếm tùy chỉnh"):
-        st.switch_page("pages/Custom_Fetch.py")
+    # Liên kết đến trang Scrape Article
+    st.markdown("<div class='scrape-page-button-container'>", unsafe_allow_html=True)
+    if st.button("Go to Scrape Article Page", key="go_to_scrape_page"):
+        st.switch_page("pages/scrape_article.py")
+    st.markdown("</div>", unsafe_allow_html=True)
+
+    tabs = ["Politics", "Sports", "Science", "Travel", "Health"]
+    selected_tab = st.radio("Select a tab:", tabs, index=tabs.index(st.session_state.selected_tab), horizontal=True)
+
+    if selected_tab != st.session_state.selected_tab:
+        st.session_state.selected_tab = selected_tab
+        st.session_state.articles = []
+
+    tab_urls = {
+        "Science": "https://edition.cnn.com/science",
+        "Travel": "https://edition.cnn.com/travel",
+        "Health": "https://edition.cnn.com/health",
+        "Politics": "https://edition.cnn.com/politics",
+        "Sports": "https://edition.cnn.com/sport"
+    }
+
+    user_url = tab_urls[st.session_state.selected_tab]
+    st.write(f"Scraping news from: {user_url}")
+
+    # Tự động lấy bài viết khi tab được chọn
+    fetch_articles(user_url)
+
+    # Hiển thị danh sách bài viết nếu có
+    if st.session_state.articles:
+        display_articles(st.session_state.articles)
+
+if __name__ == "__main__":
+    main()

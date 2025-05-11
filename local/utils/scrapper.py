@@ -29,3 +29,30 @@ def get_links_from_homepage(url, css_selector):
     else:
         # Bình thường sẽ chạy vào đây trong Streamlit
         return asyncio.run(helper_func(url, css_selector))
+
+def get_content_from_direct_url(url):
+    async def helper_func(url):
+        browser_config = BrowserConfig(headless=True)
+        crawler_config = CrawlerRunConfig(
+            cache_mode=CacheMode.BYPASS
+        )
+
+        async with AsyncWebCrawler(config=browser_config) as crawler:
+            result = await crawler.arun(
+                url=url,
+                config=crawler_config
+            )
+        
+        return result.markdown
+
+    try:
+        loop = asyncio.get_running_loop()
+    except RuntimeError:  # Không có loop nào đang chạy
+        loop = None
+
+    if loop and loop.is_running():
+        # Nếu đang trong event loop (rất hiếm trong Streamlit), dùng task và đợi
+        return asyncio.run_coroutine_threadsafe(helper_func(url), loop).result()
+    else:
+        # Bình thường sẽ chạy vào đây trong Streamlit
+        return asyncio.run(helper_func(url))

@@ -1,13 +1,7 @@
 import streamlit as st
-
-# Cấu hình trang
-st.set_page_config(page_title="Custom Fetch", page_icon="🛠️", layout="wide")
+from config import set_header
 
 def custom_fetch():
-    st.header("Custom Fetch")
-    st.write("This page allows you to scrape links from a specified URL.")
-
-    st.subheader("Enter a URL")
     url_input = st.text_input("Paste a URL here:", key="url_input", placeholder="https://example.com")
     if st.button("Submit URL", key="submit_url_button"):
         if url_input:
@@ -23,4 +17,8 @@ def main():
     custom_fetch()
 
 if __name__ == "__main__":
+    set_header(
+        title="Custom Fetch",
+        description="This page allows you to enter a URL and fetch data from it.",
+    )
     main()

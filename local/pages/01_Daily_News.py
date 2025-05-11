@@ -1,48 +1,9 @@
 import streamlit as st
 from utils import get_links_from_homepage, load_config
-import asyncio
-import asyncio
-import sys
+from config import set_header, set_page_config, setup_asyncio_policy
 
-def setup_asyncio_policy():
-    """Set asyncio policy based on the current platform."""
-    platform = sys.platform
-
-    if platform.startswith('win'):
-        try:
-            # Import WindowsProactorEventLoopPolicy only if on Windows
-            from asyncio import WindowsProactorEventLoopPolicy
-
-            if not isinstance(asyncio.get_event_loop_policy(), WindowsProactorEventLoopPolicy):
-                asyncio.set_event_loop_policy(WindowsProactorEventLoopPolicy())
-        except (RuntimeError, ImportError, AttributeError) as e:
-            print(f"[Warning] Could not set Windows asyncio policy: {e}")
-
-    elif platform.startswith('linux'):
-        try:
-            try:
-                import uvloop
-                asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
-                print("Running on Linux platform with UVLoop policy for enhanced performance.")
-            except ImportError:
-                print("Running on Linux platform. Using default asyncio event loop (uvloop not installed).")
-
-            try:
-                import resource
-                soft_limit, hard_limit = resource.getrlimit(resource.RLIMIT_NOFILE)
-                if soft_limit < 1024:
-                    resource.setrlimit(resource.RLIMIT_NOFILE, (1024, hard_limit))
-                    print("Increased file descriptor limit for better performance.")
-            except (ImportError, ValueError, resource.error) as e:
-                print(f"[Warning] Could not adjust file descriptor limit: {e}")
-
-        except Exception as e:
-            print(f"[Warning] Error setting up Linux asyncio configuration: {e}")
-
-    else:
-        print(f"[Info] Unknown or unsupported platform: {platform}. No special handling applied.")
-
-st.set_page_config(page_title="Daily News", page_icon="🔗", layout="wide")
+DEFAULT_URL = "https://example.com"
+DEFAULT_CSS_SELECTOR = "a"
 
 try:
     CONFIG = load_config()
@@ -53,14 +14,10 @@ except Exception as e:
     st.error(f"Critical error while loading configuration: {e}. Using default values.")
     CONFIG = {}
 
-DEFAULT_URL = "https://example.com"
-DEFAULT_CSS_SELECTOR = "a"
-
 def display_scraped_links(links_data):
     if not links_data:
         st.info("No links found.")
         return
-
     st.subheader("Hot News")
     with st.expander("Show all links", expanded=True):
         for index, link_info in enumerate(links_data):
@@ -96,7 +53,6 @@ def scrape_links(url, css_selector, results_area):
         st.exception(e)
 
 def main():
-    # Lấy URL và CSS selector từ config hoặc dùng mặc định
     url = CONFIG.get("url", DEFAULT_URL)
     css_selector = CONFIG.get("css_selector", DEFAULT_CSS_SELECTOR)
 
@@ -104,5 +60,13 @@ def main():
     scrape_links(url, css_selector, results_area)
 
 if __name__ == "__main__":
+    set_page_config(
+        page_title="Daily News",
+        page_icon="📰"
+    )
+    set_header(
+        title="Daily News",
+        description="This is a simple web scraping application that retrieves links from a specified URL using a CSS selector."
+    )
     setup_asyncio_policy()
     main()

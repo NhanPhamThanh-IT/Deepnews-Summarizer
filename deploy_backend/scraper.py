@@ -1,8 +1,7 @@
 import httpx
 from bs4 import BeautifulSoup
 
-async def scrape_cnn_articles():
-    url = "https://edition.cnn.com/us"
+async def scrape_cnn_articles(url: str = "https://edition.cnn.com/us") -> list:
     async with httpx.AsyncClient() as client:
         response = await client.get(url)
         soup = BeautifulSoup(response.text, "html.parser")

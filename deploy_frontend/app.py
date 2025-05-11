@@ -31,6 +31,25 @@ def display_articles(articles):
                 st.rerun()
             st.markdown("---")
 
+def fetch_articles(user_url):
+    if not user_url.startswith("https://edition.cnn.com"):
+        st.warning("⚠️ Only CNN URLs (https://edition.cnn.com/...) are accepted.")
+        return
+
+    try:
+        with st.spinner("Fetching data..."):
+            response = requests.get(f"{API_BASE}/scrape", params={"url": user_url}, timeout=10)
+
+        if response.status_code == 200:
+            data = response.json()
+            st.session_state.articles = data.get("articles", [])
+            if not st.session_state.articles:
+                st.info("No articles found.")
+        else:
+            st.error(f"API Error: {response.status_code}")
+    except requests.exceptions.RequestException as e:
+        st.error(f"Cannot connect to the API: {e}")
+
 def main():
     st.title("📰 CNN News Scraper")
     st.write("This application uses FastAPI to scrape news from CNN.")
@@ -41,19 +60,24 @@ def main():
     if "articles" not in st.session_state:
         st.session_state.articles = []
     if "selected_tab" not in st.session_state:
-        st.session_state.selected_tab = "Latest News"
+        st.session_state.selected_tab = "Politics"
 
     # Nếu đang xem nội dung bài viết
     if st.session_state.selected_article_url:
         display_article_content(st.session_state.selected_article_url)
         return
 
-    # Trang chính
-    tabs = ["Latest News", "Politics", "Sports"]
-    st.session_state.selected_tab = st.radio("Select a tab:", tabs, index=tabs.index(st.session_state.selected_tab), horizontal=True)
+    tabs = ["Politics", "Sports", "Science", "Travel", "Health"]
+    selected_tab = st.radio("Select a tab:", tabs, index=tabs.index(st.session_state.selected_tab), horizontal=True)
+
+    if selected_tab != st.session_state.selected_tab:
+        st.session_state.selected_tab = selected_tab
+        st.session_state.articles = []
 
     tab_urls = {
-        "Latest News": "https://edition.cnn.com/us",
+        "Science": "https://edition.cnn.com/science",
+        "Travel": "https://edition.cnn.com/travel",
+        "Health": "https://edition.cnn.com/health",
         "Politics": "https://edition.cnn.com/politics",
         "Sports": "https://edition.cnn.com/sport"
     }
@@ -61,24 +85,8 @@ def main():
     user_url = tab_urls[st.session_state.selected_tab]
     st.write(f"Scraping news from: {user_url}")
 
-    if st.button("Get Articles"):
-        if not user_url.startswith("https://edition.cnn.com"):
-            st.warning("⚠️ Only CNN URLs (https://edition.cnn.com/...) are accepted.")
-            return
-
-        try:
-            with st.spinner("Fetching data..."):
-                response = requests.get(f"{API_BASE}/scrape", params={"url": user_url}, timeout=10)
-
-            if response.status_code == 200:
-                data = response.json()
-                st.session_state.articles = data.get("articles", [])
-                if not st.session_state.articles:
-                    st.info("No articles found.")
-            else:
-                st.error(f"API Error: {response.status_code}")
-        except requests.exceptions.RequestException as e:
-            st.error(f"Cannot connect to the API: {e}")
+    # Tự động lấy bài viết khi tab được chọn
+    fetch_articles(user_url)
 
     # Hiển thị danh sách bài viết nếu có
     if st.session_state.articles:

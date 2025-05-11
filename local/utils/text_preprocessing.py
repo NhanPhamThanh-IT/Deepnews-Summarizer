@@ -48,3 +48,16 @@ def extract_links_from_markdown(content: str) -> List[Dict[str, str]]:
 
     # Return a list of dictionaries with 'text' and 'url'
     return [{"title": title, "url": url} for title, url in links]
+
+def merge_in_one_paragraph(content: str) -> str:
+    """
+    Merge all paragraphs in the content into one paragraph.
+
+    Args:
+        content (str): The Markdown content as a string.
+
+    Returns:
+        str: The merged content as a single paragraph.
+    """
+    # Remove newlines and extra spaces
+    return re.sub(r'\s+', ' ', content).strip()

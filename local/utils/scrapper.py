@@ -1,6 +1,7 @@
 import asyncio
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
-from .text_preprocessing import extract_links_from_markdown
+from .text_preprocessing import extract_links_from_markdown, merge_in_one_paragraph
+from .summarize import summarize_by_bart_finetune
 
 def get_links_from_homepage(url, css_selector):
     async def helper_func(url, css_selector):
@@ -34,7 +35,12 @@ def get_content_from_direct_url(url):
     async def helper_func(url):
         browser_config = BrowserConfig(headless=True)
         crawler_config = CrawlerRunConfig(
-            cache_mode=CacheMode.BYPASS
+            cache_mode=CacheMode.BYPASS,
+            css_selector=".vossi-paragraph",
+            exclude_internal_links=True,
+            exclude_external_links=True,
+            exclude_external_images=True,
+            exclude_social_media_links=True,
         )
 
         async with AsyncWebCrawler(config=browser_config) as crawler:
@@ -43,7 +49,9 @@ def get_content_from_direct_url(url):
                 config=crawler_config
             )
         
-        return result.markdown
+        result = summarize_by_bart_finetune(merge_in_one_paragraph(result.markdown))
+
+        return result
 
     try:
         loop = asyncio.get_running_loop()

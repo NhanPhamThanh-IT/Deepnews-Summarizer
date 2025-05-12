@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_BASE = "https://nlpapplication.onrender.com"
+API_BASE = "https://nlpapplication-0xrw.onrender.com"
 
 def display_article_content(article_url):
     st.title("📄 Article Content")

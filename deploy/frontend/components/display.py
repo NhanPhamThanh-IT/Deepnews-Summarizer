@@ -1,6 +1,5 @@
 import streamlit as st
 import requests
-from utils.api import API_BASE
 
 def display_articles(articles):
     for article in articles:
@@ -38,7 +37,7 @@ def display_article_content(article_url):
 
     try:
         with st.spinner("Fetching article content..."):
-            response = requests.get(f"{API_BASE}/scrape-article", params={"url": article_url}, timeout=100)
+            response = requests.get(f"https://nlpapplication-0xrw.onrender.com/scrape-article", params={"url": article_url}, timeout=100)
         if response.status_code == 200:
             content = response.json().get("content", "No content available.")
             # Wrap content in a div with the article-content class

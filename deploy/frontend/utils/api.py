@@ -24,3 +24,15 @@ def fetch_articles(user_url):
             st.error(f"API Error: {response.status_code}")
     except requests.exceptions.RequestException as e:
         st.error(f"Cannot connect to the API: {e}")
+
+def fetch_article_content(article_url):
+    try:
+        with st.spinner("Fetching article content..."):
+            response = requests.get(f"{API_BASE}/scrape-article", params={"url": article_url}, timeout=100)
+        if response.status_code == 200:
+            content = response.json().get("content", "No content available.")
+            return content
+        else:
+            st.error("Failed to fetch article content.")
+    except requests.exceptions.RequestException as e:
+        st.error(f"Request error: {e}")

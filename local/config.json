@@ -1,4 +1,21 @@
 {
     "url": "https://edition.cnn.com/us",
-    "css_selector": ".container__link--type-article"
+    "css_selector": ".container__link--type-article",
+    "tabs": [
+        {
+            "name": "Politics",
+            "url": "https://edition.cnn.com/politics",
+            "css_selector": ".container__link--type-article"
+        },
+        {
+            "name": "Business",
+            "url": "https://edition.cnn.com/business",
+            "css_selector": ".container__link--type-article"
+        },
+        {
+            "name": "Health",
+            "url": "https://edition.cnn.com/health",
+            "css_selector": ".container__link--type-article"
+        }
+    ]
 }

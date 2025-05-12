@@ -1,7 +1,7 @@
 import httpx
 from bs4 import BeautifulSoup
 import openai
-import dotenv
+import os
 
 async def scrape_cnn_articles(url: str = "https://edition.cnn.com/us") -> list:
     async with httpx.AsyncClient() as client:
@@ -57,4 +57,4 @@ async def scrape_direct_cnn_article_content(url: str) -> str:
         paragraphs = soup.select("p.vossi-paragraph")
         content = "\n".join(p.get_text(strip=True) for p in paragraphs)
 
-        return summarize(content, api_key=dotenv.get_key(dotenv.find_dotenv(), "OPENAI_API_KEY"))
+        return summarize(content, api_key=os.getenv("OPENAI_API_KEY"))

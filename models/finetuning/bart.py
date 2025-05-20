@@ -225,4 +225,3 @@ print("  Precision:", sum(bert_scores["precision"]) / len(bert_scores["precision
 print("  Recall:", sum(bert_scores["recall"]) / len(bert_scores["recall"]))
 print("  F1:", sum(bert_scores["f1"]) / len(bert_scores["f1"]))
 
-

@@ -30,10 +30,10 @@ df = pd.concat([train, test, val], ignore_index=True)
 df.shape
 
 # %% [markdown]
-# ### Remove random 90%
+# ### Remove random 88%
 
 # %%
-df = df.sample(frac=0.1)
+df = df.sample(frac=0.12)
 df.shape
 
 
